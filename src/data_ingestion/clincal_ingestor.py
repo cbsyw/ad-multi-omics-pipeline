@@ -29,6 +29,49 @@ class ClinicalDataIngestor(DataIngestionBase):
         self.logger.info(f"Initialized clinical data ingestor with format: {self.flie_format}")
 
     def _infer_format(self,data_path):
-
+        extension = data_path.split('.')[-1].lower()
+        format_map ={
+                'csv': 'csv',
+                'xlsx': 'excel',
+                'xls': 'excel',
+                'tsv': 'tsv',
+                'txt': 'tsv'
+                }
         
+        file_format = format_map.get(extension)
+        if not file_format:
+            self.logger.warning(f"unknown file extension: {extension}. default to csv.")
+            file_format = 'csv'
+
+        return file_format
+        
+
+    def load_data(self):
+        self.logger.info(f"Loading clinical data from {self.data_path}")
+
+        try:
+            if self.file_format == 'csv':
+                self.data = pd.read_csv(self.data_path)
+            elif self.file_format == 'excel':
+                self.data = pd.read_excel(self.data_path)
+            elif self.file_format == 'tsv':
+                self.data = pd.read_excel(self.data_path)
+            else:
+                raise ValueError(f"unsupported file format: {self.file_format}")
+
+            self.logger.info(f"succesfully loaded data with shape: self.data.shape")
+            return self.data
+
+        except Exception as e:
+            self.logger.error(f"error loading clinical data: {str(e)}")
+            raise
+
     
+
+    
+
+
+
+
+
+
