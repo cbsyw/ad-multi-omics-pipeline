@@ -8,7 +8,7 @@
     "libgcc-ng >=11.2.0",
     "libstdcxx-ng >=11.2.0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/fmt-9.1.0-hdb19cb5_1",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/fmt-9.1.0-hdb19cb5_1",
   "files": [
     "include/fmt/args.h",
     "include/fmt/chrono.h",
@@ -36,12 +36,12 @@
   "license": "MIT",
   "license_family": "MIT",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/fmt-9.1.0-hdb19cb5_1",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/fmt-9.1.0-hdb19cb5_1",
     "type": 1
   },
   "md5": "4f12930203ff2d84df5d287af9b29858",
   "name": "fmt",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/fmt-9.1.0-hdb19cb5_1.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/fmt-9.1.0-hdb19cb5_1.conda",
   "paths_data": {
     "paths": [
       {
@@ -50,7 +50,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/fmt_1714483211264/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
         "sha256": "12e5fc6b315d2df8c202c93b97f9c278fbd907c213da2ac6b08126e400ed0c2c",
-        "sha256_in_prefix": "c3f231689402739d4615d3f2a177c863d74c41da52c0521dc42d1ffa0205a093",
+        "sha256_in_prefix": "1cb473a10fa9b1d7198073f0568f3252a74028e13e393a5623424d9b5129eb80",
         "size_in_bytes": 702
       }
     ],

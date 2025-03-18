@@ -6,7 +6,7 @@
   "depends": [
     "python >=3.9,<3.10.0a0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/setuptools-75.8.0-py39h06a4308_0",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/setuptools-75.8.0-py39h06a4308_0",
   "files": [
     "lib/python3.9/site-packages/_distutils_hack/__init__.py",
     "lib/python3.9/site-packages/_distutils_hack/__pycache__/__init__.cpython-39.pyc",
@@ -864,12 +864,12 @@
   "fn": "setuptools-75.8.0-py39h06a4308_0.conda",
   "license": "MIT",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/setuptools-75.8.0-py39h06a4308_0",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/setuptools-75.8.0-py39h06a4308_0",
     "type": 1
   },
   "md5": "95501a85131c101dd6d9ae4d39a48fe4",
   "name": "setuptools",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/setuptools-75.8.0-py39h06a4308_0.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/setuptools-75.8.0-py39h06a4308_0.conda",
   "paths_data": {
     "paths": [
       {

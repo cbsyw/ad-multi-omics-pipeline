@@ -6,7 +6,7 @@
   "depends": [
     "python >=3.7"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/archspec-0.2.3-pyhd3eb1b0_0",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/archspec-0.2.3-pyhd3eb1b0_0",
   "files": [
     "lib/python3.12/site-packages/archspec-0.2.3.dist-info/INSTALLER",
     "lib/python3.12/site-packages/archspec-0.2.3.dist-info/METADATA",
@@ -90,13 +90,13 @@
   "fn": "archspec-0.2.3-pyhd3eb1b0_0.conda",
   "license": "MIT OR Apache-2.0",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/archspec-0.2.3-pyhd3eb1b0_0",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/archspec-0.2.3-pyhd3eb1b0_0",
     "type": 1
   },
   "md5": "13d01ee2d343d8539bb47055a6c0b5b2",
   "name": "archspec",
   "noarch": "python",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/archspec-0.2.3-pyhd3eb1b0_0.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/archspec-0.2.3-pyhd3eb1b0_0.conda",
   "package_type": "noarch_python",
   "paths_data": {
     "paths": [

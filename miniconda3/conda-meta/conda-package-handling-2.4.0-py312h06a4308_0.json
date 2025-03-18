@@ -9,7 +9,7 @@
     "python >=3.12,<3.13.0a0",
     "zstandard >=0.15"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/conda-package-handling-2.4.0-py312h06a4308_0",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/conda-package-handling-2.4.0-py312h06a4308_0",
   "files": [
     "bin/cph",
     "lib/python3.12/site-packages/conda_package_handling-2.4.0.dist-info/AUTHORS.md",
@@ -49,12 +49,12 @@
   "license": "BSD-3-Clause",
   "license_family": "BSD",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/conda-package-handling-2.4.0-py312h06a4308_0",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/conda-package-handling-2.4.0-py312h06a4308_0",
     "type": 1
   },
   "md5": "20af9c2597fae0494f5d5a256dae433a",
   "name": "conda-package-handling",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/conda-package-handling-2.4.0-py312h06a4308_0.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/conda-package-handling-2.4.0-py312h06a4308_0.conda",
   "paths_data": {
     "paths": [
       {
@@ -63,7 +63,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/conda-package-handling_1731369017509/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
         "sha256": "07bf774000548874b8ee3054d345e5041cb414ddb170481de2b2956839cbcd22",
-        "sha256_in_prefix": "7cc6532c489917bd7221405788f60b92ed3e2baad9c724f11dd0635ff81aaa46",
+        "sha256_in_prefix": "c0fdf68206a7f3bc8985b2419578fd0f1e4285ca9e9edda06cabde5c93b2245f",
         "size_in_bytes": 479
       }
     ],

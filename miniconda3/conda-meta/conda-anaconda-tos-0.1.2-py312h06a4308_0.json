@@ -10,7 +10,7 @@
     "python >=3.12,<3.13.0a0",
     "rich"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/conda-anaconda-tos-0.1.2-py312h06a4308_0",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/conda-anaconda-tos-0.1.2-py312h06a4308_0",
   "files": [
     "bin/.conda-anaconda-tos-pre-unlink.sh",
     "lib/python3.12/site-packages/conda_anaconda_tos-0.1.2.dist-info/INSTALLER",
@@ -53,12 +53,12 @@
   "license": "BSD-3-Clause",
   "license_family": "BSD",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/conda-anaconda-tos-0.1.2-py312h06a4308_0",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/conda-anaconda-tos-0.1.2-py312h06a4308_0",
     "type": 1
   },
   "md5": "18b787d0e95d7469076c17018dfdf06b",
   "name": "conda-anaconda-tos",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/conda-anaconda-tos-0.1.2-py312h06a4308_0.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/conda-anaconda-tos-0.1.2-py312h06a4308_0.conda",
   "paths_data": {
     "paths": [],
     "paths_version": 1

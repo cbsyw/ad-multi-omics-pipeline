@@ -7,7 +7,7 @@
   "depends": [
     "libgcc-ng >=11.2.0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/c-ares-1.19.1-h5eee18b_0",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/c-ares-1.19.1-h5eee18b_0",
   "files": [
     "bin/acountry",
     "bin/adig",
@@ -93,12 +93,12 @@
   "license": "MIT",
   "license_family": "MIT",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/c-ares-1.19.1-h5eee18b_0",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/c-ares-1.19.1-h5eee18b_0",
     "type": 1
   },
   "md5": "6cfbce52273a1cb888821f18ceaa83c4",
   "name": "c-ares",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/c-ares-1.19.1-h5eee18b_0.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/c-ares-1.19.1-h5eee18b_0.conda",
   "paths_data": {
     "paths": [
       {
@@ -107,7 +107,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/c-ares-split_1693901972995/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
         "sha256": "497393c8439b66f07175744d52323288c4f54d0bbe4ae6e44c42f16cc9359d85",
-        "sha256_in_prefix": "3b685286a4ce6bc317266ea34e05485ab8757c34671d5e1276918a7c979bfb87",
+        "sha256_in_prefix": "8e07ecd0a5c2b2a00d268486539aca367f8c15fc0318bb2c6d4fd3763d2d53cd",
         "size_in_bytes": 1277
       }
     ],

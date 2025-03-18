@@ -12,7 +12,7 @@
     "python >=3.12,<3.13.0a0",
     "typing-extensions >=4.12.2"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/pydantic-2.10.3-py312h06a4308_0",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/pydantic-2.10.3-py312h06a4308_0",
   "files": [
     "lib/python3.12/site-packages/pydantic-2.10.3.dist-info/INSTALLER",
     "lib/python3.12/site-packages/pydantic-2.10.3.dist-info/METADATA",
@@ -234,12 +234,12 @@
   "license": "MIT",
   "license_family": "MIT",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/pydantic-2.10.3-py312h06a4308_0",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/pydantic-2.10.3-py312h06a4308_0",
     "type": 1
   },
   "md5": "7687e401f50ee0a0466471e96017b0bf",
   "name": "pydantic",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/pydantic-2.10.3-py312h06a4308_0.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/pydantic-2.10.3-py312h06a4308_0.conda",
   "paths_data": {
     "paths": [],
     "paths_version": 1

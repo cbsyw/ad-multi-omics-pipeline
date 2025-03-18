@@ -1,7 +1,7 @@
-export CONDA_EXE='/home/ubuntu/sage-bio/miniconda3/bin/conda'
+export CONDA_EXE='/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/bin/conda'
 export _CE_M=''
 export _CE_CONDA=''
-export CONDA_PYTHON_EXE='/home/ubuntu/sage-bio/miniconda3/bin/python'
+export CONDA_PYTHON_EXE='/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/bin/python'
 
 # Copyright (C) 2012 Anaconda, Inc
 # SPDX-License-Identifier: BSD-3-Clause

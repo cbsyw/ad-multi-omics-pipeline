@@ -1,5 +1,5 @@
-==> 2025-03-17 17:39:50 <==
-# cmd: /home/ubuntu/sage-bio/miniconda3/bin/conda create -n ad-data-demo python=3.9
+==> 2025-03-18 02:13:43 <==
+# cmd: /home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/bin/conda create -n ad-data-demo python=3.9
 # conda version: 25.1.1
 +defaults/linux-64::_libgcc_mutex-0.1-main
 +defaults/linux-64::_openmp_mutex-5.1-1_gnu

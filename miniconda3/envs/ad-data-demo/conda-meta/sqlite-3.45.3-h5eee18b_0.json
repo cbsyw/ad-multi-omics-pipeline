@@ -10,7 +10,7 @@
     "zlib >=1.2.13,<1.3.0a0",
     "zlib >=1.2.13,<2.0a0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/sqlite-3.45.3-h5eee18b_0",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/sqlite-3.45.3-h5eee18b_0",
   "files": [
     "bin/sqlite3",
     "include/sqlite3.h",
@@ -24,12 +24,12 @@
   "fn": "sqlite-3.45.3-h5eee18b_0.conda",
   "license": "blessing",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/sqlite-3.45.3-h5eee18b_0",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/sqlite-3.45.3-h5eee18b_0",
     "type": 1
   },
   "md5": "acf93d6aceb74d6110e20b44cc45939e",
   "name": "sqlite",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/sqlite-3.45.3-h5eee18b_0.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/sqlite-3.45.3-h5eee18b_0.conda",
   "paths_data": {
     "paths": [
       {
@@ -78,7 +78,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/sqlite_1714488253653/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
         "sha256": "ff5d5bee02eae3cc17981bd9944e890b07f1202bcfea54be7412f2aaa3851426",
-        "sha256_in_prefix": "01becdee2c39b2f7bf48e19a913ae9d3176be85c6ef6003c2ace4dcb0308945f",
+        "sha256_in_prefix": "be8f5fa333191f0b34c17aaec9f2f47f6d9de178f9893e8b8e099f3a7272d425",
         "size_in_bytes": 531
       },
       {

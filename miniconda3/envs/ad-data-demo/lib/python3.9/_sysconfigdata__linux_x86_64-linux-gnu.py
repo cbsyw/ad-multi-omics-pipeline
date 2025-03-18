@@ -10,41 +10,41 @@ build_time_vars = {'ABIFLAGS': '',
  'BASECFLAGS': '-Wno-unused-result -Wsign-compare',
  'BASECPPFLAGS': '-IObjects -IInclude -IPython',
  'BASEMODLIBS': '',
- 'BINDIR': '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/bin',
- 'BINLIBDEST': '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib/python3.9',
+ 'BINDIR': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/bin',
+ 'BINLIBDEST': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib/python3.9',
  'BLDLIBRARY': 'libpython3.9.a',
  'BLDSHARED': ''
-              'gcc -pthread -B /home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/compiler_compat -shared  '
+              'gcc -pthread -B /home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/compiler_compat -shared  '
               ''
               ''
-              '-Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
-              '-Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
-              '-L/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
-              '-L/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
+              '-Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
+              '-Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
+              '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
+              '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
               ''
               ''
-              '-Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
-              '-Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
-              '-L/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib',
+              '-Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
+              '-Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
+              '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib',
  'BUILDEXE': '',
  'BUILDPYTHON': 'python',
  'BUILD_GNU_TYPE': 'x86_64-conda_cos6-linux-gnu',
  'BYTESTR_DEPS': '\\',
  'CC': ''
-       'gcc -pthread -B /home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/compiler_compat',
+       'gcc -pthread -B /home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/compiler_compat',
  'CCSHARED': '-fPIC',
  'CFLAGS': '-Wno-unused-result -Wsign-compare -DNDEBUG  -O2 -Wall '
            '   -fPIC '
            '  -O2   '
            '-isystem '
-           '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
+           '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
            ''
            ''
-           '-I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
+           '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
            '   -fPIC '
            '  -O2   '
            '-isystem '
-           '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
+           '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
            ''
            ''
            '',
@@ -55,10 +55,10 @@ build_time_vars = {'ABIFLAGS': '',
  'CONFIGURE_CFLAGS': '   -fPIC '
                      '  -O2 '
                      '  -isystem '
-                     '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
+                     '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
                      ''
                      ''
-                     '-I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include',
+                     '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include',
  'CONFIGURE_CFLAGS_NODIST': ''
                             ' -g -std=c99 -Wextra '
                             '-Wno-unused-result -Wno-unused-parameter '
@@ -66,56 +66,56 @@ build_time_vars = {'ABIFLAGS': '',
                             '-Werror=implicit-function-declaration '
                             '-fvisibility=hidden',
  'CONFIGURE_CPPFLAGS': '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-                       '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
-                       '-I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
-                       '-I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include',
+                       '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
+                       '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
+                       '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include',
  'CONFIGURE_LDFLAGS': ''
                       ''
-                      '-Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
-                      '-Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
-                      '-L/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
-                      '-L/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib',
+                      '-Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
+                      '-Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
+                      '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
+                      '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib',
  'CONFIGURE_LDFLAGS_NODIST': ''
                              ' -g',
- 'CONFIG_ARGS': "'--prefix=/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo' "
+ 'CONFIG_ARGS': "'--prefix=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo' "
                 "'--build=x86_64-conda_cos6-linux-gnu' "
                 "'--host=x86_64-conda_cos6-linux-gnu''--enable-ipv6' "
                 "'--with-ensurepip=no' "
-                "'--with-tzpath=/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/share/zoneinfo:/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/share/tzinfo' "
+                "'--with-tzpath=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/share/zoneinfo:/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/share/tzinfo' "
                 "'--with-computed-gotos''--with-system-ffi' "
                 "'--enable-loadable-sqlite-extensions' "
-                "'--with-tcltk-includes=-I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include' "
-                "'--with-tcltk-libs=-L/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib "
+                "'--with-tcltk-includes=-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include' "
+                "'--with-tcltk-libs=-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib "
                 "-ltcl8.6 -ltk8.6''--with-platlibdir=lib' "
-                "'--with-openssl=/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo' "
-                "'PKG_CONFIG_LIBDIR=/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib' "
-                "'PKG_CONFIG_PATH=/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib' "
+                "'--with-openssl=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo' "
+                "'PKG_CONFIG_LIBDIR=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib' "
+                "'PKG_CONFIG_PATH=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib' "
                 "'CPPFLAGS=-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem "
-                '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
-                '-I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
-                "-I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include' "
+                '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
+                '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
+                "-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include' "
                 "'CXXFLAGS=-fvisibility-inlines-hidden -std=c++17 "
                 '-fmessage-length=0   '
                 ' -fPIC   -O2 '
                 '  -isystem '
-                '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
+                '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
                 ''
                 ''
-                "-I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include' "
+                "-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include' "
                 "'CFLAGS=   -fPIC "
                 '  -O2  '
                 ' -isystem '
-                '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
+                '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
                 ''
                 ''
-                "-I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include' "
+                "-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include' "
                 "'LDFLAGS=   "
                 ''
                 ''
-                '-Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
-                '-Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
-                '-L/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
-                "-L/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib' "
+                '-Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
+                '-Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
+                '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
+                "-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib' "
                 "'CC= "
                 "gcc''CXX=g++' "
                 "'--with-lto''--enable-optimizations' "
@@ -124,8 +124,8 @@ build_time_vars = {'ABIFLAGS': '',
                 "'build_alias=x86_64-conda_cos6-linux-gnu' "
                 "'host_alias=x86_64-conda_cos6-linux-gnu''MACHDEP=linux' "
                 "'CPP=/croot/python-split_1733933781842/_build_env/bin/cpp'",
- 'CONFINCLUDEDIR': '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include',
- 'CONFINCLUDEPY': '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include/python3.9',
+ 'CONFINCLUDEDIR': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include',
+ 'CONFINCLUDEPY': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include/python3.9',
  'COREPYTHONPATH': '',
  'COVERAGE_INFO': '/croot/python-split_1733933781842/work/build-static/coverage.info',
  'COVERAGE_REPORT': '/croot/python-split_1733933781842/work/build-static/lcov-report',
@@ -134,20 +134,20 @@ build_time_vars = {'ABIFLAGS': '',
  'CPPFLAGS': '-IObjects -IInclude -IPython -I. '
              '-I/croot/python-split_1733933781842/work/Include -DNDEBUG '
              '-D_FORTIFY_SOURCE=2 -O2 -isystem '
-             '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
-             '-I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
-             '-I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
+             '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
+             '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
+             '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
              '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-             '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
-             '-I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include',
- 'CXX': 'g++ -pthread -B /home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/compiler_compat',
- 'DESTDIRS': '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo '
-             '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
-             '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib/python3.9 '
-             '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib/python3.9/lib-dynload',
- 'DESTLIB': '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib/python3.9',
+             '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
+             '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include',
+ 'CXX': 'g++ -pthread -B /home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/compiler_compat',
+ 'DESTDIRS': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo '
+             '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
+             '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib/python3.9 '
+             '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib/python3.9/lib-dynload',
+ 'DESTLIB': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib/python3.9',
  'DESTPATH': '',
- 'DESTSHARED': '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib/python3.9/lib-dynload',
+ 'DESTSHARED': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib/python3.9/lib-dynload',
  'DFLAGS': '',
  'DIRMODE': 755,
  'DIST': 'README.rst ChangeLog configure configure.ac acconfig.h pyconfig.h.in '
@@ -610,12 +610,12 @@ build_time_vars = {'ABIFLAGS': '',
  'HAVE_ZLIB_COPY': 1,
  'HAVE__GETPTY': 0,
  'HOST_GNU_TYPE': 'x86_64-conda_cos6-linux-gnu',
- 'INCLDIRSTOMAKE': '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
-                   '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
-                   '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include/python3.9 '
-                   '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include/python3.9',
- 'INCLUDEDIR': '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include',
- 'INCLUDEPY': '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include/python3.9',
+ 'INCLDIRSTOMAKE': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
+                   '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
+                   '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include/python3.9 '
+                   '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include/python3.9',
+ 'INCLUDEDIR': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include',
+ 'INCLUDEPY': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include/python3.9',
  'INSTALL': '/usr/bin/install -c',
  'INSTALL_DATA': '/usr/bin/install -c -m 644',
  'INSTALL_PROGRAM': '/usr/bin/install -c',
@@ -624,43 +624,43 @@ build_time_vars = {'ABIFLAGS': '',
  'INSTSONAME': 'libpython3.9.a',
  'IO_H': 'Modules/_io/_iomodule.h',
  'IO_OBJS': '\\',
- 'LDCXXSHARED': 'g++ -pthread -B /home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/compiler_compat -shared',
+ 'LDCXXSHARED': 'g++ -pthread -B /home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/compiler_compat -shared',
  'LDFLAGS': ''
             ''
-            '-Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
-            '-Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
-            '-L/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
-            '-L/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
+            '-Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
+            '-Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
+            '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
+            '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
             ''
             ''
-            '-Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
-            '-Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
-            '-L/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib',
+            '-Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
+            '-Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
+            '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib',
  'LDLIBRARY': 'libpython3.9.a',
  'LDLIBRARYDIR': '',
  'LDSHARED': ''
-             'gcc -pthread -B /home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/compiler_compat -shared  '
+             'gcc -pthread -B /home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/compiler_compat -shared  '
              ''
              ''
-             '-Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
-             '-Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
-             '-L/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
-             '-L/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
+             '-Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
+             '-Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
+             '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
+             '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
              ''
              ''
-             '-Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
-             '-Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
-             '-L/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib',
+             '-Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
+             '-Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
+             '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib',
  'LDVERSION': '3.9',
  'LIBC': '',
- 'LIBDEST': '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib/python3.9',
- 'LIBDIR': '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib',
- 'LIBFFI_INCLUDEDIR': '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include',
+ 'LIBDEST': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib/python3.9',
+ 'LIBDIR': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib',
+ 'LIBFFI_INCLUDEDIR': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include',
  'LIBM': '-lm',
  'LIBOBJDIR': 'Python/',
  'LIBOBJS': '',
- 'LIBPC': '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib/pkgconfig',
- 'LIBPL': '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib/python3.9/config-3.9-x86_64-linux-gnu',
+ 'LIBPC': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib/pkgconfig',
+ 'LIBPL': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib/python3.9/config-3.9-x86_64-linux-gnu',
  'LIBPYTHON': '',
  'LIBRARY': 'libpython3.9.a',
  'LIBRARY_OBJS': '\\',
@@ -668,7 +668,7 @@ build_time_vars = {'ABIFLAGS': '',
  'LIBS': '-lcrypt -lpthread -ldl  -lutil -lm',
  'LIBSUBDIRS': 'tkinter tkinter/test tkinter/test/test_tkinter \\',
  'LINKCC': ''
-           'gcc -pthread -B /home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/compiler_compat',
+           'gcc -pthread -B /home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/compiler_compat',
  'LINKFORSHARED': '-Xlinker -export-dynamic',
  'LIPO_32BIT_FLAGS': '',
  'LIPO_INTEL64_FLAGS': '',
@@ -679,14 +679,14 @@ build_time_vars = {'ABIFLAGS': '',
  'LOCALMODLIBS': '',
  'MACHDEP': 'linux',
  'MACHDEP_OBJS': '',
- 'MACHDESTLIB': '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib/python3.9',
+ 'MACHDESTLIB': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib/python3.9',
  'MACOSX_DEPLOYMENT_TARGET': '',
  'MAINCC': ''
-           'gcc -pthread -B /home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/compiler_compat',
+           'gcc -pthread -B /home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/compiler_compat',
  'MAJOR_IN_MKDEV': 0,
  'MAJOR_IN_SYSMACROS': 0,
  'MAKESETUP': '/croot/python-split_1733933781842/work/Modules/makesetup',
- 'MANDIR': '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/share/man',
+ 'MANDIR': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/share/man',
  'MKDIR_P': '/usr/bin/mkdir -p',
  'MODBUILT_NAMES': 'posix  errno  pwd  _sre  _codecs  _weakref  _functools  '
                    '_operator  _collections  _abc  itertools  atexit  _signal  '
@@ -712,8 +712,8 @@ build_time_vars = {'ABIFLAGS': '',
  'MVWDELCH_IS_EXPRESSION': 1,
  'NO_AS_NEEDED': '-Wl,--no-as-needed',
  'OBJECT_OBJS': '\\',
- 'OPENSSL_INCLUDES': '-I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include',
- 'OPENSSL_LDFLAGS': '-L/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib',
+ 'OPENSSL_INCLUDES': '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include',
+ 'OPENSSL_LDFLAGS': '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib',
  'OPENSSL_LIBS': '-lssl -lcrypto',
  'OPT': '-DNDEBUG  -O2 -Wall',
  'OTHER_LIBTOOL_OPT': '',
@@ -754,14 +754,14 @@ build_time_vars = {'ABIFLAGS': '',
                              '-Wall   '
                              ' -fPIC  '
                              ' -O2   -isystem '
-                             '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
+                             '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
                              ''
                              ''
-                             '-I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
+                             '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
                              ''
                              '-fPIC   -O2 '
                              '  -isystem '
-                             '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
+                             '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
                              ''
                              ''
                              ''
@@ -777,25 +777,25 @@ build_time_vars = {'ABIFLAGS': '',
                              '-IObjects -IInclude -IPython -I. '
                              '-I/croot/python-split_1733933781842/work/Include '
                              '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-                             '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
-                             '-I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
-                             '-I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
+                             '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
+                             '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
+                             '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
                              '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-                             '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
-                             '-I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
+                             '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
+                             '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
                              '-DPy_BUILD_CORE_BUILTIN',
  'PY_CFLAGS': '-Wno-unused-result -Wsign-compare -DNDEBUG  -O2 -Wall '
               '   -fPIC '
               '  -O2   '
               '-isystem '
-              '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
+              '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
               ''
               ''
-              '-I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
+              '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
               '   -fPIC '
               '  -O2   '
               '-isystem '
-              '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
+              '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
               ''
               ''
               ''
@@ -812,14 +812,14 @@ build_time_vars = {'ABIFLAGS': '',
                    '   -fPIC '
                    '  -O2  '
                    ' -isystem '
-                   '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
+                   '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
                    ''
                    ''
-                   '-I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
+                   '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
                    '   -fPIC '
                    '  -O2  '
                    ' -isystem '
-                   '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
+                   '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
                    ''
                    ''
                    ''
@@ -833,47 +833,47 @@ build_time_vars = {'ABIFLAGS': '',
                    '-IObjects -IInclude -IPython -I. '
                    '-I/croot/python-split_1733933781842/work/Include -DNDEBUG '
                    '-D_FORTIFY_SOURCE=2 -O2 -isystem '
-                   '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
-                   '-I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
-                   '-I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
+                   '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
+                   '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
+                   '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
                    '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-                   '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
-                   '-I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
+                   '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
+                   '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
                    '-DPy_BUILD_CORE',
  'PY_CORE_LDFLAGS': ''
                     ''
-                    '-Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
-                    '-Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
-                    '-L/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
-                    '-L/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
+                    '-Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
+                    '-Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
+                    '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
+                    '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
                     ''
                     ''
-                    '-Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
-                    '-Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
-                    '-L/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
+                    '-Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
+                    '-Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
+                    '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
                     ''
                     ' -g',
  'PY_CPPFLAGS': '-IObjects -IInclude -IPython -I. '
                 '-I/croot/python-split_1733933781842/work/Include -DNDEBUG '
                 '-D_FORTIFY_SOURCE=2 -O2 -isystem '
-                '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
-                '-I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
-                '-I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
+                '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
+                '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
+                '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
                 '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-                '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
-                '-I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include',
+                '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
+                '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include',
  'PY_FORMAT_SIZE_T': '"z"',
  'PY_LDFLAGS': ''
                ''
-               '-Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
-               '-Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
-               '-L/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
-               '-L/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
+               '-Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
+               '-Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
+               '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
+               '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
                ''
                ''
-               '-Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
-               '-Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
-               '-L/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib',
+               '-Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
+               '-Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
+               '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib',
  'PY_LDFLAGS_NODIST': ''
                       ' -g',
  'PY_SSL_DEFAULT_CIPHERS': 1,
@@ -882,14 +882,14 @@ build_time_vars = {'ABIFLAGS': '',
                         '   -fPIC '
                         '  -O2 '
                         '  -isystem '
-                        '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
+                        '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
                         ''
                         ''
-                        '-I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
+                        '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
                         '   -fPIC '
                         '  -O2 '
                         '  -isystem '
-                        '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
+                        '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
                         ''
                         ''
                         ''
@@ -904,12 +904,12 @@ build_time_vars = {'ABIFLAGS': '',
                         '-IObjects -IInclude -IPython -I. '
                         '-I/croot/python-split_1733933781842/work/Include '
                         '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-                        '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
-                        '-I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
-                        '-I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
+                        '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
+                        '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
+                        '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
                         '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-                        '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include '
-                        '-I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include',
+                        '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include '
+                        '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include',
  'Py_DEBUG': 0,
  'Py_ENABLE_SHARED': 0,
  'Py_HASH_ALGORITHM': 0,
@@ -919,7 +919,7 @@ build_time_vars = {'ABIFLAGS': '',
  'RESSRCDIR': 'Mac/Resources/framework',
  'RETSIGTYPE': 'void',
  'RUNSHARED': '',
- 'SCRIPTDIR': '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib',
+ 'SCRIPTDIR': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib',
  'SETPGRP_HAVE_ARG': 0,
  'SHELL': '/bin/sh',
  'SHLIBS': '-lcrypt -lpthread -ldl  -lutil -lm',
@@ -955,8 +955,8 @@ build_time_vars = {'ABIFLAGS': '',
  'SUBDIRSTOO': 'Include Lib Misc',
  'SYSLIBS': '-lm',
  'SYS_SELECT_WITH_SYS_TIME': 1,
- 'TCLTK_INCLUDES': '-I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include',
- 'TCLTK_LIBS': '-L/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib '
+ 'TCLTK_INCLUDES': '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include',
+ 'TCLTK_LIBS': '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib '
                '-ltcl8.6 -ltk8.6',
  'TESTOPTS': '',
  'TESTPATH': '',
@@ -968,7 +968,7 @@ build_time_vars = {'ABIFLAGS': '',
  'TIMEMODULE_LIB': 0,
  'TIME_WITH_SYS_TIME': 1,
  'TM_IN_SYS_TIME': 0,
- 'TZPATH': '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/share/zoneinfo:/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/share/tzinfo',
+ 'TZPATH': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/share/zoneinfo:/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/share/tzinfo',
  'UNICODE_DEPS': '\\',
  'UNIVERSALSDK': '',
  'UPDATE_FILE': 'python3.9 '
@@ -989,7 +989,7 @@ build_time_vars = {'ABIFLAGS': '',
  'XMLLIBSUBDIRS': 'xml xml/dom xml/etree xml/parsers xml/sax',
  'abs_builddir': '/croot/python-split_1733933781842/work/build-static',
  'abs_srcdir': '/croot/python-split_1733933781842/work',
- 'datarootdir': '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/share',
- 'exec_prefix': '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo',
- 'prefix': '/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo',
+ 'datarootdir': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/share',
+ 'exec_prefix': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo',
+ 'prefix': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo',
  'srcdir': '/croot/python-split_1733933781842/work'}

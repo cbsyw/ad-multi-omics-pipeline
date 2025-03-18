@@ -7,7 +7,7 @@
   "depends": [
     "python >=3.12,<3.13.0a0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/distro-1.9.0-py312h06a4308_0",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/distro-1.9.0-py312h06a4308_0",
   "files": [
     "bin/distro",
     "lib/python3.12/site-packages/distro-1.9.0.dist-info/INSTALLER",
@@ -31,12 +31,12 @@
   "license": "Apache-2.0",
   "license_family": "Apache",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/distro-1.9.0-py312h06a4308_0",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/distro-1.9.0-py312h06a4308_0",
     "type": 1
   },
   "md5": "71b90a563af005b336c976cc9466221c",
   "name": "distro",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/distro-1.9.0-py312h06a4308_0.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/distro-1.9.0-py312h06a4308_0.conda",
   "paths_data": {
     "paths": [
       {
@@ -45,7 +45,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/distro_1714488253808/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
         "sha256": "b7809f9b8dc495a27c98b090e63ec5c77c48f697b3b73068caefdf6aa2a29a6d",
-        "sha256_in_prefix": "7b0d823afb16f60d574adfba1d7e5cf812b68803f216bd83a0f13fc4c73325af",
+        "sha256_in_prefix": "c5b54de262f2a935cb15fa635466b9c96e0a7c96ae5e884198ce8d64b03734ba",
         "size_in_bytes": 466
       }
     ],

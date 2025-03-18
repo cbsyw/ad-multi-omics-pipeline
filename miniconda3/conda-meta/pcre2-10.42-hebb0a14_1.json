@@ -9,7 +9,7 @@
     "libgcc-ng >=11.2.0",
     "zlib >=1.2.13,<1.3.0a0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/pcre2-10.42-hebb0a14_1",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/pcre2-10.42-hebb0a14_1",
   "files": [
     "bin/pcre2-config",
     "bin/pcre2_jit_test",
@@ -234,12 +234,12 @@
   "license": "BSD-3-Clause",
   "license_family": "BSD",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/pcre2-10.42-hebb0a14_1",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/pcre2-10.42-hebb0a14_1",
     "type": 1
   },
   "md5": "727e15c3cfa02b032da4eb0c1123e977",
   "name": "pcre2",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/pcre2-10.42-hebb0a14_1.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/pcre2-10.42-hebb0a14_1.conda",
   "paths_data": {
     "paths": [
       {
@@ -248,7 +248,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/pcre2_1714657620904/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
         "sha256": "fc115278ee8d5e1a1360d2252a73452174efd6777f75ee910e2928fe28ce45e2",
-        "sha256_in_prefix": "852bbf70813f0514724af3d134a5d9d5967f6f779333f16fe3183912f39f4331",
+        "sha256_in_prefix": "500f93436468d44fb73225271ef110288a953977e9528e4910af7869c68c46a6",
         "size_in_bytes": 2424
       },
       {
@@ -257,7 +257,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/pcre2_1714657620904/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
         "sha256": "a00b1c1de9a0c21205ca68d21e9555656cf37bb477479ce4f5bcc25f985333bf",
-        "sha256_in_prefix": "45cc431a8fe602d61210bb97a7899805ba800b448b5bd062ece65bf9e492d893",
+        "sha256_in_prefix": "93fc083f087d7e2ef3d35b8abe42dca463990fcfc863815ac2c56ba28d46fc70",
         "size_in_bytes": 589
       },
       {
@@ -266,7 +266,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/pcre2_1714657620904/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
         "sha256": "982de57d2ff9241842761f9d1701f50e086a009a1d017c222547ac84e89d9b1a",
-        "sha256_in_prefix": "a900edc0a05d8c481c5e575da4ffb420f0ae340c6e16e7b5597fd1f964364032",
+        "sha256_in_prefix": "344107d16c559e7b6784c458c6d9146e47415e406a580d436731f72975e498fb",
         "size_in_bytes": 589
       },
       {
@@ -275,7 +275,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/pcre2_1714657620904/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
         "sha256": "505ffc72de2a0e358fdf04591fa06a7c61f72c161a2b1c6f5b5da1cddd33958d",
-        "sha256_in_prefix": "9c82d3031270e360d06acd6afe02304e0c4bbd9a761652c6f2cb4202191f2f7b",
+        "sha256_in_prefix": "b8ea70d0116867a53367ef47331ce41912b342b1279a162fac808a0b73fe8c07",
         "size_in_bytes": 586
       },
       {
@@ -284,7 +284,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/pcre2_1714657620904/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
         "sha256": "81b277c063d54db6ac27e2ec6bab148378712577d1103e4cbf6f6f25d74edd4d",
-        "sha256_in_prefix": "65aab3a4551063506e8d0bcc214deaa6410b3ea5d7627452bda167fbc19cf4cf",
+        "sha256_in_prefix": "367bf4c5ed7501dc75e58c2a08468d7af37ccdbd3342af714ceeaaf25a910d4f",
         "size_in_bytes": 555
       }
     ],

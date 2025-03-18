@@ -8,7 +8,7 @@
     "mdurl >=0.1,<1",
     "python >=3.12,<3.13.0a0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/markdown-it-py-2.2.0-py312h06a4308_1",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/markdown-it-py-2.2.0-py312h06a4308_1",
   "files": [
     "bin/markdown-it",
     "lib/python3.12/site-packages/markdown_it/__init__.py",
@@ -155,12 +155,12 @@
   "license": "MIT",
   "license_family": "MIT",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/markdown-it-py-2.2.0-py312h06a4308_1",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/markdown-it-py-2.2.0-py312h06a4308_1",
     "type": 1
   },
   "md5": "ec0d596109762df09a6ee70dd3327847",
   "name": "markdown-it-py",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/markdown-it-py-2.2.0-py312h06a4308_1.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/markdown-it-py-2.2.0-py312h06a4308_1.conda",
   "paths_data": {
     "paths": [
       {
@@ -169,7 +169,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/work/perseverance-python-buildout/croot/markdown-it-py_1698846045803/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
         "sha256": "8f4f26305c641f576766552e9e5a020acc6d6b0a2dbb562e78228f1fd9a2a262",
-        "sha256_in_prefix": "eb62fbf41a9937d1cf05df4b7431f8c3a8b0db59d5bcf03e38fa2ca7bc59eecd",
+        "sha256_in_prefix": "5132b6aaf71a7005fff009234d3a681e38b94bcbf25c0d8a68cc9265bfb7f99b",
         "size_in_bytes": 474
       }
     ],

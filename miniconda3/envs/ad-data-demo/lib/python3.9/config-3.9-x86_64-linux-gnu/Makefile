@@ -81,7 +81,7 @@ MAKESETUP=      $(srcdir)/Modules/makesetup
 OPT=		-DNDEBUG  -O2 -Wall
 BASECFLAGS=	 -Wno-unused-result -Wsign-compare
 BASECPPFLAGS=	-IObjects -IInclude -IPython
-CONFIGURE_CFLAGS=	-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include   -I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include
+CONFIGURE_CFLAGS=	-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include   -I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include
 # CFLAGS_NODIST is used for building the interpreter and stdlib C extensions.
 # Use it when a compiler flag should _not_ be part of the distutils CFLAGS
 # once Python is installed (Issue #21121).
@@ -90,8 +90,8 @@ CONFIGURE_CFLAGS_NODIST=     -g -std=c99 -Wextra -Wno-unused-result -Wno-unused-
 # Use it when a linker flag should _not_ be part of the distutils LDFLAGS
 # once Python is installed (bpo-35257)
 CONFIGURE_LDFLAGS_NODIST=     -g
-CONFIGURE_CPPFLAGS=	-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include -I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include -I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include
-CONFIGURE_LDFLAGS=	-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib -Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib -L/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib -L/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib
+CONFIGURE_CPPFLAGS=	-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include -I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include -I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include
+CONFIGURE_LDFLAGS=	-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib -Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib -L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib -L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib
 # Avoid assigning CFLAGS, LDFLAGS, etc. so users can use them on the
 # command line to append to these values without stomping the pre-set
 # values.
@@ -129,7 +129,7 @@ MULTIARCH=	x86_64-linux-gnu
 MULTIARCH_CPPFLAGS = -DMULTIARCH=\"x86_64-linux-gnu\"
 
 # Install prefix for architecture-independent files
-prefix=		/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo
+prefix=		/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo
 
 # Install prefix for architecture-dependent files
 exec_prefix=	${prefix}
@@ -200,12 +200,12 @@ RUNSHARED=
 ENSUREPIP=      no
 
 # OpenSSL options for setup.py so sysconfig can pick up AC_SUBST() vars.
-OPENSSL_INCLUDES=-I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include
+OPENSSL_INCLUDES=-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include
 OPENSSL_LIBS=-lssl -lcrypto
-OPENSSL_LDFLAGS=-L/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib
+OPENSSL_LDFLAGS=-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib
 
 # Default zoneinfo.TZPATH. Added here to expose it in sysconfig.get_config_var
-TZPATH=/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/share/zoneinfo
+TZPATH=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/share/zoneinfo
 
 # Modes for directories, executables and data files created by the
 # install process.  Default to user-only-writable for all file types.
@@ -214,7 +214,7 @@ EXEMODE=	755
 FILEMODE=	644
 
 # configure script arguments
-CONFIG_ARGS=	 '--prefix=/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo' '--build=x86_64-conda-linux-gnu' '--host=x86_64-conda-linux-gnu' '--enable-ipv6' '--with-ensurepip=no' '--with-tzpath=/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/share/zoneinfo' '--with-computed-gotos' '--with-system-ffi' '--enable-loadable-sqlite-extensions' '--with-tcltk-includes=-I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include' '--with-tcltk-libs=-L/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib -ltcl8.6 -ltk8.6' '--with-platlibdir=lib' '--with-openssl=/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo' 'PKG_CONFIG_LIBDIR=/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib' 'PKG_CONFIG_PATH=/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib' 'CPPFLAGS=-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include -I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include -I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include' 'CXXFLAGS=-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include   -I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include' 'CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include   -I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include' 'LDFLAGS=-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib -Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib -L/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib -L/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib' 'CC= x86_64-conda-linux-gnu-gcc' 'CXX=x86_64-conda-linux-gnu-c++' '--with-lto' '--enable-optimizations' '-oldincludedir=/usr/include' '--disable-shared' 'PROFILE_TASK=-m test --pgo' 'build_alias=x86_64-conda-linux-gnu' 'host_alias=x86_64-conda-linux-gnu' 'MACHDEP=linux' 'CPP=/croot/python-split_1733933781842/_build_env/bin/x86_64-conda-linux-gnu-cpp'
+CONFIG_ARGS=	 '--prefix=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo' '--build=x86_64-conda-linux-gnu' '--host=x86_64-conda-linux-gnu' '--enable-ipv6' '--with-ensurepip=no' '--with-tzpath=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/share/zoneinfo' '--with-computed-gotos' '--with-system-ffi' '--enable-loadable-sqlite-extensions' '--with-tcltk-includes=-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include' '--with-tcltk-libs=-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib -ltcl8.6 -ltk8.6' '--with-platlibdir=lib' '--with-openssl=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo' 'PKG_CONFIG_LIBDIR=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib' 'PKG_CONFIG_PATH=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib' 'CPPFLAGS=-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include -I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include -I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include' 'CXXFLAGS=-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include   -I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include' 'CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include   -I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include' 'LDFLAGS=-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib -Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib -L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib -L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib' 'CC= x86_64-conda-linux-gnu-gcc' 'CXX=x86_64-conda-linux-gnu-c++' '--with-lto' '--enable-optimizations' '-oldincludedir=/usr/include' '--disable-shared' 'PROFILE_TASK=-m test --pgo' 'build_alias=x86_64-conda-linux-gnu' 'host_alias=x86_64-conda-linux-gnu' 'MACHDEP=linux' 'CPP=/croot/python-split_1733933781842/_build_env/bin/x86_64-conda-linux-gnu-cpp'
 
 
 # Subdirectories with code
@@ -263,8 +263,8 @@ BUILD_GNU_TYPE=	x86_64-conda-linux-gnu
 HOST_GNU_TYPE=	x86_64-conda-linux-gnu
 
 # Tcl and Tk config info from --with-tcltk-includes and -libs options
-TCLTK_INCLUDES=	-I/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include
-TCLTK_LIBS=	-L/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib -ltcl8.6 -ltk8.6
+TCLTK_INCLUDES=	-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include
+TCLTK_LIBS=	-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib -ltcl8.6 -ltk8.6
 
 # The task to run while instrumented when building the profile-opt target.
 # To speed up profile generation, we don't run the full unit test suite
@@ -313,7 +313,7 @@ IO_OBJS=	\
 
 ##########################################################################
 
-LIBFFI_INCLUDEDIR=	/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include
+LIBFFI_INCLUDEDIR=	/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include
 
 ##########################################################################
 # Parser

@@ -9,7 +9,7 @@
     "python >=3.12,<3.13.0a0",
     "typing-extensions >=4.6.0,!=4.7.0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/pydantic-core-2.27.1-py312h4aa5aa6_0",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/pydantic-core-2.27.1-py312h4aa5aa6_0",
   "files": [
     "lib/python3.12/site-packages/pydantic_core-2.27.1.dist-info/INSTALLER",
     "lib/python3.12/site-packages/pydantic_core-2.27.1.dist-info/METADATA",
@@ -30,12 +30,12 @@
   "license": "MIT",
   "license_family": "MIT",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/pydantic-core-2.27.1-py312h4aa5aa6_0",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/pydantic-core-2.27.1-py312h4aa5aa6_0",
     "type": 1
   },
   "md5": "0d0c992a7648b1b38ea2e488331b754e",
   "name": "pydantic-core",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/pydantic-core-2.27.1-py312h4aa5aa6_0.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/pydantic-core-2.27.1-py312h4aa5aa6_0.conda",
   "paths_data": {
     "paths": [],
     "paths_version": 1

@@ -7,7 +7,7 @@
   "depends": [
     "python >=3.12,<3.13.0a0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/pygments-2.15.1-py312h06a4308_1",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/pygments-2.15.1-py312h06a4308_1",
   "files": [
     "bin/pygmentize",
     "lib/python3.12/site-packages/Pygments-2.15.1.dist-info/AUTHORS",
@@ -629,12 +629,12 @@
   "license": "BSD-2-Clause",
   "license_family": "BSD",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/pygments-2.15.1-py312h06a4308_1",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/pygments-2.15.1-py312h06a4308_1",
     "type": 1
   },
   "md5": "0cbad1773807f46b928491e0b8606e7f",
   "name": "pygments",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/pygments-2.15.1-py312h06a4308_1.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/pygments-2.15.1-py312h06a4308_1.conda",
   "paths_data": {
     "paths": [
       {
@@ -643,7 +643,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/work/perseverance-python-buildout/croot/pygments_1698846270603/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
         "sha256": "94bbb3e69cdac1ba3b5bb45d79931358b84ff5205e84ab18883b5f8b866e2f10",
-        "sha256_in_prefix": "8b6f4698fce2a273dffdd912fcef1f1db7307f6f741185c7b467aee186c2d370",
+        "sha256_in_prefix": "974398cf29053bb80a4d2d2670c2bfaf42f2078f12fe72ba95ebd6a544fcc107",
         "size_in_bytes": 469
       }
     ],

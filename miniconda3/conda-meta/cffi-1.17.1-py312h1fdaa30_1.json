@@ -10,7 +10,7 @@
     "pycparser",
     "python >=3.12,<3.13.0a0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/cffi-1.17.1-py312h1fdaa30_1",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/cffi-1.17.1-py312h1fdaa30_1",
   "files": [
     "lib/python3.12/site-packages/_cffi_backend.cpython-312-x86_64-linux-gnu.so",
     "lib/python3.12/site-packages/cffi-1.17.1.dist-info/INSTALLER",
@@ -67,12 +67,12 @@
   "license": "MIT",
   "license_family": "MIT",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/cffi-1.17.1-py312h1fdaa30_1",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/cffi-1.17.1-py312h1fdaa30_1",
     "type": 1
   },
   "md5": "e3c5735b1a5c0ec929f62407410890bb",
   "name": "cffi",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/cffi-1.17.1-py312h1fdaa30_1.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/cffi-1.17.1-py312h1fdaa30_1.conda",
   "paths_data": {
     "paths": [],
     "paths_version": 1

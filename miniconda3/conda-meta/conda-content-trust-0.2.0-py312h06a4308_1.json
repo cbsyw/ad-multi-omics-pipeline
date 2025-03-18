@@ -8,7 +8,7 @@
     "cryptography >=41",
     "python >=3.12,<3.13.0a0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/conda-content-trust-0.2.0-py312h06a4308_1",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/conda-content-trust-0.2.0-py312h06a4308_1",
   "files": [
     "bin/conda-content-trust",
     "lib/python3.12/site-packages/conda_content_trust-0.2.0.dist-info/INSTALLER",
@@ -45,12 +45,12 @@
   "license": "BSD-3-Clause",
   "license_family": "BSD",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/conda-content-trust-0.2.0-py312h06a4308_1",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/conda-content-trust-0.2.0-py312h06a4308_1",
     "type": 1
   },
   "md5": "fdcf7a04d9cc833ea3f397a414010206",
   "name": "conda-content-trust",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/conda-content-trust-0.2.0-py312h06a4308_1.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/conda-content-trust-0.2.0-py312h06a4308_1.conda",
   "paths_data": {
     "paths": [
       {
@@ -59,7 +59,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/conda-content-trust_1714483159009/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
         "sha256": "16c76fde16202dbae0ac667a4571d6cf7aec3fc7900c5fa750994b33d628e113",
-        "sha256_in_prefix": "a1bab1e4059ddb4b2766c6fe1c5ea561df6989b0a4207226523e01981564a6e6",
+        "sha256_in_prefix": "1ab739a7a2cbc73a4e0ab6f5654aa31c1d6d73a81ef6b410829b9db0b71649fb",
         "size_in_bytes": 474
       }
     ],

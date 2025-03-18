@@ -82,7 +82,7 @@ MAKESETUP=      $(srcdir)/Modules/makesetup
 OPT=		-DNDEBUG -O2 -Wall
 BASECFLAGS=	 -fno-strict-overflow -Wsign-compare
 BASECPPFLAGS=	-IObjects -IInclude -IPython
-CONFIGURE_CFLAGS=	-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/ubuntu/sage-bio/miniconda3/include -fdebug-prefix-map=/croot/python-split_1738867532706/work=/usr/local/src/conda/python-3.12.9 -fdebug-prefix-map=/home/ubuntu/sage-bio/miniconda3=/usr/local/src/conda-prefix    
+CONFIGURE_CFLAGS=	-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include -fdebug-prefix-map=/croot/python-split_1738867532706/work=/usr/local/src/conda/python-3.12.9 -fdebug-prefix-map=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3=/usr/local/src/conda-prefix    
 # CFLAGS_NODIST is used for building the interpreter and stdlib C extensions.
 # Use it when a compiler flag should _not_ be part of the distutils CFLAGS
 # once Python is installed (Issue #21121).
@@ -94,8 +94,8 @@ CONFIGURE_LDFLAGS_NODIST= -fno-semantic-interposition     -g
 # LDFLAGS_NOLTO is an extra flag to disable lto. It is used to speed up building
 # of _bootstrap_python and _freeze_module tools, which don't need LTO.
 CONFIGURE_LDFLAGS_NOLTO=-fno-lto
-CONFIGURE_CPPFLAGS=	-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/ubuntu/sage-bio/miniconda3/include -I/home/ubuntu/sage-bio/miniconda3/include
-CONFIGURE_LDFLAGS=	-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/lib -Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/lib -L/home/ubuntu/sage-bio/miniconda3/lib
+CONFIGURE_CPPFLAGS=	-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include -I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include
+CONFIGURE_LDFLAGS=	-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib
 # Avoid assigning CFLAGS, LDFLAGS, etc. so users can use them on the
 # command line to append to these values without stomping the pre-set
 # values.
@@ -134,7 +134,7 @@ MULTIARCH=	x86_64-linux-gnu
 MULTIARCH_CPPFLAGS = -DMULTIARCH=\"x86_64-linux-gnu\"
 
 # Install prefix for architecture-independent files
-prefix=		/home/ubuntu/sage-bio/miniconda3
+prefix=		/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3
 
 # Install prefix for architecture-dependent files
 exec_prefix=	${prefix}
@@ -298,15 +298,15 @@ MODULE__CRYPT_STATE=yes
 MODULE__CRYPT_CFLAGS=
 MODULE__CRYPT_LDFLAGS=-lcrypt
 MODULE__CTYPES_STATE=yes
-MODULE__CTYPES_CFLAGS=-fno-strict-overflow -I/home/ubuntu/sage-bio/miniconda3/include
-MODULE__CTYPES_LDFLAGS=-L/home/ubuntu/sage-bio/miniconda3/lib -lffi -ldl
+MODULE__CTYPES_CFLAGS=-fno-strict-overflow -I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include
+MODULE__CTYPES_LDFLAGS=-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -lffi -ldl
 MODULE__CURSES_STATE=yes
-MODULE__CURSES_CFLAGS=-D_GNU_SOURCE -DNCURSES_WIDECHAR -I/home/ubuntu/sage-bio/miniconda3/include/ncursesw -I/home/ubuntu/sage-bio/miniconda3/include
-MODULE__CURSES_LDFLAGS=-L/home/ubuntu/sage-bio/miniconda3/lib -Wl,-O2 -Wl,--sort-common -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/lib -Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/lib -lncursesw -ltinfow
+MODULE__CURSES_CFLAGS=-D_GNU_SOURCE -DNCURSES_WIDECHAR -I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include/ncursesw -I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include
+MODULE__CURSES_LDFLAGS=-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -Wl,-O2 -Wl,--sort-common -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -lncursesw -ltinfow
 
 MODULE__CURSES_PANEL_STATE=yes
-MODULE__CURSES_PANEL_CFLAGS=-D_GNU_SOURCE -DNCURSES_WIDECHAR -D_GNU_SOURCE -DNCURSES_WIDECHAR -I/home/ubuntu/sage-bio/miniconda3/include/ncursesw -I/home/ubuntu/sage-bio/miniconda3/include -I/home/ubuntu/sage-bio/miniconda3/include/ncursesw -I/home/ubuntu/sage-bio/miniconda3/include -D_GNU_SOURCE -DNCURSES_WIDECHAR -I/home/ubuntu/sage-bio/miniconda3/include/ncursesw -I/home/ubuntu/sage-bio/miniconda3/include
-MODULE__CURSES_PANEL_LDFLAGS=-L/home/ubuntu/sage-bio/miniconda3/lib -Wl,-O2 -Wl,--sort-common -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/lib -Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/lib -lpanelw -L/home/ubuntu/sage-bio/miniconda3/lib -Wl,-O2 -Wl,--sort-common -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/lib -Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/lib -lncursesw -ltinfow
+MODULE__CURSES_PANEL_CFLAGS=-D_GNU_SOURCE -DNCURSES_WIDECHAR -D_GNU_SOURCE -DNCURSES_WIDECHAR -I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include/ncursesw -I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include -I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include/ncursesw -I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include -D_GNU_SOURCE -DNCURSES_WIDECHAR -I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include/ncursesw -I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include
+MODULE__CURSES_PANEL_LDFLAGS=-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -Wl,-O2 -Wl,--sort-common -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -lpanelw -L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -Wl,-O2 -Wl,--sort-common -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -lncursesw -ltinfow
 
 MODULE__DECIMAL_STATE=yes
 MODULE__DECIMAL_CFLAGS=-I$(srcdir)/Modules/_decimal/libmpdec -DCONFIG_64=1 -DANSI=1 -DHAVE_UINT128_T=1
@@ -320,32 +320,32 @@ MODULE_READLINE_STATE=yes
 MODULE_READLINE_CFLAGS=
 MODULE_READLINE_LDFLAGS=-lreadline
 MODULE__SQLITE3_STATE=yes
-MODULE__SQLITE3_CFLAGS=-I/home/ubuntu/sage-bio/miniconda3/include -I$(srcdir)/Modules/_sqlite
-MODULE__SQLITE3_LDFLAGS=-L/home/ubuntu/sage-bio/miniconda3/lib -lsqlite3
+MODULE__SQLITE3_CFLAGS=-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include -I$(srcdir)/Modules/_sqlite
+MODULE__SQLITE3_LDFLAGS=-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -lsqlite3
 MODULE__TKINTER_STATE=yes
-MODULE__TKINTER_CFLAGS=-I/home/ubuntu/sage-bio/miniconda3/include -Wno-strict-prototypes -DWITH_APPINIT=1
-MODULE__TKINTER_LDFLAGS=-L/home/ubuntu/sage-bio/miniconda3/lib -ltk8.6 -ltkstub8.6 -ltcl8.6 -ltclstub8.6
+MODULE__TKINTER_CFLAGS=-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include -Wno-strict-prototypes -DWITH_APPINIT=1
+MODULE__TKINTER_LDFLAGS=-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -ltk8.6 -ltkstub8.6 -ltcl8.6 -ltclstub8.6
 MODULE__UUID_STATE=yes
-MODULE__UUID_CFLAGS=-I/home/ubuntu/sage-bio/miniconda3/include/uuid
-MODULE__UUID_LDFLAGS=-L/home/ubuntu/sage-bio/miniconda3/lib -luuid
+MODULE__UUID_CFLAGS=-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include/uuid
+MODULE__UUID_LDFLAGS=-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -luuid
 MODULE_ZLIB_STATE=yes
-MODULE_ZLIB_CFLAGS=-I/home/ubuntu/sage-bio/miniconda3/include
-MODULE_ZLIB_LDFLAGS=-L/home/ubuntu/sage-bio/miniconda3/lib -lz
+MODULE_ZLIB_CFLAGS=-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include
+MODULE_ZLIB_LDFLAGS=-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -lz
 MODULE_BINASCII_STATE=yes
-MODULE_BINASCII_CFLAGS=-DUSE_ZLIB_CRC32 -I/home/ubuntu/sage-bio/miniconda3/include
-MODULE_BINASCII_LDFLAGS=-L/home/ubuntu/sage-bio/miniconda3/lib -lz
+MODULE_BINASCII_CFLAGS=-DUSE_ZLIB_CRC32 -I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include
+MODULE_BINASCII_LDFLAGS=-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -lz
 MODULE__BZ2_STATE=yes
 MODULE__BZ2_CFLAGS=
 MODULE__BZ2_LDFLAGS=-lbz2
 MODULE__LZMA_STATE=yes
-MODULE__LZMA_CFLAGS=-I/home/ubuntu/sage-bio/miniconda3/include
-MODULE__LZMA_LDFLAGS=-L/home/ubuntu/sage-bio/miniconda3/lib -llzma
+MODULE__LZMA_CFLAGS=-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include
+MODULE__LZMA_LDFLAGS=-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -llzma
 MODULE__SSL_STATE=yes
-MODULE__SSL_CFLAGS=-I/home/ubuntu/sage-bio/miniconda3/include
-MODULE__SSL_LDFLAGS=-L/home/ubuntu/sage-bio/miniconda3/lib  -lssl -lcrypto
+MODULE__SSL_CFLAGS=-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include
+MODULE__SSL_LDFLAGS=-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib  -lssl -lcrypto
 MODULE__HASHLIB_STATE=yes
-MODULE__HASHLIB_CFLAGS=-I/home/ubuntu/sage-bio/miniconda3/include
-MODULE__HASHLIB_LDFLAGS=-L/home/ubuntu/sage-bio/miniconda3/lib   -lcrypto
+MODULE__HASHLIB_CFLAGS=-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include
+MODULE__HASHLIB_LDFLAGS=-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib   -lcrypto
 MODULE__TESTCAPI_STATE=yes
 MODULE__TESTCLINIC_STATE=yes
 MODULE__TESTINTERNALCAPI_STATE=yes
@@ -361,7 +361,7 @@ MODULE_XXLIMITED_35_STATE=yes
 
 
 # Default zoneinfo.TZPATH. Added here to expose it in sysconfig.get_config_var
-TZPATH=/home/ubuntu/sage-bio/miniconda3/share/zoneinfo
+TZPATH=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/share/zoneinfo
 
 # Modes for directories, executables and data files created by the
 # install process.  Default to user-only-writable for all file types.
@@ -370,7 +370,7 @@ EXEMODE=	755
 FILEMODE=	644
 
 # configure script arguments
-CONFIG_ARGS=	 '--prefix=/home/ubuntu/sage-bio/miniconda3' '--build=x86_64-conda-linux-gnu' '--host=x86_64-conda-linux-gnu' '--enable-ipv6' '--with-ensurepip=no' '--with-tzpath=/home/ubuntu/sage-bio/miniconda3/share/zoneinfo' '--with-computed-gotos' '--with-system-expat' '--enable-loadable-sqlite-extensions' '--with-tcltk-includes=-I/home/ubuntu/sage-bio/miniconda3/include' '--with-tcltk-libs=-L/home/ubuntu/sage-bio/miniconda3/lib -ltcl8.6 -ltk8.6' '--with-platlibdir=lib' '--with-lto=full' '--enable-optimizations' '-oldincludedir=/croot/python-split_1738867532706/_build_env/x86_64-conda-linux-gnu/sysroot/usr/include' '--disable-shared' 'PROFILE_TASK=-m test --pgo' 'build_alias=x86_64-conda-linux-gnu' 'host_alias=x86_64-conda-linux-gnu' 'PKG_CONFIG_PATH=/home/ubuntu/sage-bio/miniconda3/lib/pkgconfig' 'MACHDEP=linux' 'CC=x86_64-conda-linux-gnu-gcc' 'CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/ubuntu/sage-bio/miniconda3/include -fdebug-prefix-map=/croot/python-split_1738867532706/work=/usr/local/src/conda/python-3.12.9 -fdebug-prefix-map=/home/ubuntu/sage-bio/miniconda3=/usr/local/src/conda-prefix    ' 'LDFLAGS=-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/lib -Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/lib -L/home/ubuntu/sage-bio/miniconda3/lib' 'CPPFLAGS=-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/ubuntu/sage-bio/miniconda3/include -I/home/ubuntu/sage-bio/miniconda3/include' 'CPP=/croot/python-split_1738867532706/_build_env/bin/x86_64-conda-linux-gnu-cpp'
+CONFIG_ARGS=	 '--prefix=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3' '--build=x86_64-conda-linux-gnu' '--host=x86_64-conda-linux-gnu' '--enable-ipv6' '--with-ensurepip=no' '--with-tzpath=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/share/zoneinfo' '--with-computed-gotos' '--with-system-expat' '--enable-loadable-sqlite-extensions' '--with-tcltk-includes=-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include' '--with-tcltk-libs=-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -ltcl8.6 -ltk8.6' '--with-platlibdir=lib' '--with-lto=full' '--enable-optimizations' '-oldincludedir=/croot/python-split_1738867532706/_build_env/x86_64-conda-linux-gnu/sysroot/usr/include' '--disable-shared' 'PROFILE_TASK=-m test --pgo' 'build_alias=x86_64-conda-linux-gnu' 'host_alias=x86_64-conda-linux-gnu' 'PKG_CONFIG_PATH=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib/pkgconfig' 'MACHDEP=linux' 'CC=x86_64-conda-linux-gnu-gcc' 'CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include -fdebug-prefix-map=/croot/python-split_1738867532706/work=/usr/local/src/conda/python-3.12.9 -fdebug-prefix-map=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3=/usr/local/src/conda-prefix    ' 'LDFLAGS=-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib' 'CPPFLAGS=-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include -I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include' 'CPP=/croot/python-split_1738867532706/_build_env/bin/x86_64-conda-linux-gnu-cpp'
 
 
 # Subdirectories with code

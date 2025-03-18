@@ -8,7 +8,7 @@
     "libgcc-ng >=11.2.0",
     "libstdcxx-ng >=11.2.0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/cpp-expected-1.1.0-hdb19cb5_0",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/cpp-expected-1.1.0-hdb19cb5_0",
   "files": [
     "include/tl/expected.hpp",
     "share/cmake/tl-expected/tl-expected-config-version.cmake",
@@ -19,12 +19,12 @@
   "license": "CC0-1.0",
   "license_family": "CC",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/cpp-expected-1.1.0-hdb19cb5_0",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/cpp-expected-1.1.0-hdb19cb5_0",
     "type": 1
   },
   "md5": "3a195bcf47b691adb4a635a8b7f396f7",
   "name": "cpp-expected",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/cpp-expected-1.1.0-hdb19cb5_0.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/cpp-expected-1.1.0-hdb19cb5_0.conda",
   "paths_data": {
     "paths": [],
     "paths_version": 1

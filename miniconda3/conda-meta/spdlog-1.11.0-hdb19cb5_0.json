@@ -9,7 +9,7 @@
     "libgcc-ng >=11.2.0",
     "libstdcxx-ng >=11.2.0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/spdlog-1.11.0-hdb19cb5_0",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/spdlog-1.11.0-hdb19cb5_0",
   "files": [
     "include/spdlog/async.h",
     "include/spdlog/async_logger-inl.h",
@@ -110,12 +110,12 @@
   "license": "MIT",
   "license_family": "MIT",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/spdlog-1.11.0-hdb19cb5_0",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/spdlog-1.11.0-hdb19cb5_0",
     "type": 1
   },
   "md5": "023cfe6341f1d90dee2016e608538537",
   "name": "spdlog",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/spdlog-1.11.0-hdb19cb5_0.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/spdlog-1.11.0-hdb19cb5_0.conda",
   "paths_data": {
     "paths": [
       {
@@ -124,7 +124,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/spdlog-split_1676361308723/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
         "sha256": "04320cb2bcb6eb8c3f9934c9c0144b46accd0830779fe4b978a695893cb28b6c",
-        "sha256_in_prefix": "a61ab5aad11b13f8eb08baa91fa401d932bbc2ea42582d0e5407691cc58eb023",
+        "sha256_in_prefix": "ee4b175693b333836dcfc32549c5cbacdbbd7ccdefba9ee204d4d22a7f56616b",
         "size_in_bytes": 589
       }
     ],

@@ -8,7 +8,7 @@
     "libgcc-ng >=11.2.0",
     "libstdcxx-ng >=11.2.0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/simdjson-3.10.1-hdb19cb5_0",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/simdjson-3.10.1-hdb19cb5_0",
   "files": [
     "include/simdjson.h",
     "lib/cmake/simdjson/simdjson-config-version.cmake",
@@ -24,12 +24,12 @@
   "license": "Apache-2.0",
   "license_family": "Apache",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/simdjson-3.10.1-hdb19cb5_0",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/simdjson-3.10.1-hdb19cb5_0",
     "type": 1
   },
   "md5": "7b2a4b5be590071e1b4dce77b413d26a",
   "name": "simdjson",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/simdjson-3.10.1-hdb19cb5_0.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/simdjson-3.10.1-hdb19cb5_0.conda",
   "paths_data": {
     "paths": [
       {
@@ -38,7 +38,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/simdjson-split_1734048054873/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
         "sha256": "64921e0fffa695131592eefdf49790a0b5cecb8de9a710fbe7d3b6acb8abff49",
-        "sha256_in_prefix": "4a5c539283ed26e45907c53af830e10c8dc2f4181af7f6fda88cdba925692035",
+        "sha256_in_prefix": "487129bcbbd7cbdb19f3a13f08781dbc3f1ee494737358ef59c7d2f8fe413af2",
         "size_in_bytes": 527
       }
     ],

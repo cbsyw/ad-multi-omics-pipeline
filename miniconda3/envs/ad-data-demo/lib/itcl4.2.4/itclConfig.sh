@@ -26,8 +26,8 @@ ITCL_BUILD_LIB_SPEC='-L/croot/tk_1714770549989/work/tcl8.6.14/unix/pkgs/itcl4.2.
 
 # String to pass to linker to pick up the Itcl library from its
 # installed directory.
-itcl_LIB_SPEC='-L/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib/itcl4.2.4 -litcl4.2.4'
-ITCL_LIB_SPEC='-L/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib/itcl4.2.4 -litcl4.2.4'
+itcl_LIB_SPEC='-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib/itcl4.2.4 -litcl4.2.4'
+ITCL_LIB_SPEC='-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib/itcl4.2.4 -litcl4.2.4'
 
 # The name of the Itcl stub library (a .a file):
 itcl_STUB_LIB_FILE=libitclstub4.2.4.a
@@ -40,8 +40,8 @@ ITCL_BUILD_STUB_LIB_SPEC='-L/croot/tk_1714770549989/work/tcl8.6.14/unix/pkgs/itc
 
 # String to pass to linker to pick up the Itcl stub library from its
 # installed directory.
-itcl_STUB_LIB_SPEC='-L/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib/itcl4.2.4 -litclstub4.2.4'
-ITCL_STUB_LIB_SPEC='-L/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib/itcl4.2.4 -litclstub4.2.4'
+itcl_STUB_LIB_SPEC='-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib/itcl4.2.4 -litclstub4.2.4'
+ITCL_STUB_LIB_SPEC='-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib/itcl4.2.4 -litclstub4.2.4'
 
 # String to pass to linker to pick up the Itcl stub library from its
 # build directory.
@@ -50,8 +50,8 @@ ITCL_BUILD_STUB_LIB_PATH='/croot/tk_1714770549989/work/tcl8.6.14/unix/pkgs/itcl4
 
 # String to pass to linker to pick up the Itcl stub library from its
 # installed directory.
-itcl_STUB_LIB_PATH='/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib/itcl4.2.4/libitclstub4.2.4.a'
-ITCL_STUB_LIB_PATH='/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib/itcl4.2.4/libitclstub4.2.4.a'
+itcl_STUB_LIB_PATH='/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib/itcl4.2.4/libitclstub4.2.4.a'
+ITCL_STUB_LIB_PATH='/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib/itcl4.2.4/libitclstub4.2.4.a'
 
 # Location of the top-level source directories from which [incr Tcl]
 # was built.  This is the directory that contains generic, unix, etc.

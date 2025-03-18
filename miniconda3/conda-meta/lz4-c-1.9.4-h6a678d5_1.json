@@ -8,7 +8,7 @@
     "libgcc-ng >=11.2.0",
     "libstdcxx-ng >=11.2.0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/lz4-c-1.9.4-h6a678d5_1",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/lz4-c-1.9.4-h6a678d5_1",
   "files": [
     "bin/lz4",
     "bin/lz4c",
@@ -31,12 +31,12 @@
   "license": "BSD-2-Clause",
   "license_family": "BSD",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/lz4-c-1.9.4-h6a678d5_1",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/lz4-c-1.9.4-h6a678d5_1",
     "type": 1
   },
   "md5": "2ee58861f2b92b868ce761abb831819d",
   "name": "lz4-c",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/lz4-c-1.9.4-h6a678d5_1.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/lz4-c-1.9.4-h6a678d5_1.conda",
   "paths_data": {
     "paths": [
       {
@@ -45,7 +45,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/lz4-c_1714510556686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
         "sha256": "d38cd99a75a077ab3a655f28db056093a0f195eb46beef1ea3f81484583e60cd",
-        "sha256_in_prefix": "a43506b5bc9fcb3bfa64a0e382c3ed427ea18f0ec970eddef0ed00b160522e23",
+        "sha256_in_prefix": "aed464cd47d72caf4f09cce67c7ea0f7af86cae2591c0728903fe2dc5cd02e47",
         "size_in_bytes": 640
       }
     ],

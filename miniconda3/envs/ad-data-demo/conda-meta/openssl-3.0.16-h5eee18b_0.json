@@ -7,7 +7,7 @@
     "ca-certificates",
     "libgcc-ng >=11.2.0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/openssl-3.0.16-h5eee18b_0",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/openssl-3.0.16-h5eee18b_0",
   "files": [
     "bin/c_rehash",
     "bin/openssl",
@@ -171,12 +171,12 @@
   "fn": "openssl-3.0.16-h5eee18b_0.conda",
   "license": "Apache-2.0",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/openssl-3.0.16-h5eee18b_0",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/openssl-3.0.16-h5eee18b_0",
     "type": 1
   },
   "md5": "5875526739afa058cfa84da1fa7a2ef4",
   "name": "openssl",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/openssl-3.0.16-h5eee18b_0.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/openssl-3.0.16-h5eee18b_0.conda",
   "paths_data": {
     "paths": [
       {
@@ -185,7 +185,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/openssl_1740989479866/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
         "sha256": "02dafa9aa4dc1ef81bf0ca9905e0027daa1e8dc10e7b02b9a3d7918dc357ca3d",
-        "sha256_in_prefix": "72d2077c5cf2b3333d25719e723f4215ad7c487afd9b73a7efdf863167031f53",
+        "sha256_in_prefix": "65373f383a00fd60711c888dfdc653b1b07fd089115a1fb222e9a4f53c9ed35d",
         "size_in_bytes": 7140
       },
       {
@@ -1174,7 +1174,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/openssl_1740989479866/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
         "sha256": "0b72fd683e93c5f95a3b68aa8d133274e0b0e5a757bfcde90acc66488698fec1",
-        "sha256_in_prefix": "0547b7604819131d0294b44fedf4f5d724b76d9e9472a89d119eec8c63845432",
+        "sha256_in_prefix": "47f849fcd4a1bc86e856d1b702b13b1489a4d5b30677eac9df6fc2542721dd35",
         "size_in_bytes": 11086938
       },
       {
@@ -1189,7 +1189,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/openssl_1740989479866/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
         "sha256": "f8971e88ee32f5377880931b8a363a4d43e77aa903e7206287a95486a6773887",
-        "sha256_in_prefix": "d3e360859a2e5b84b4e6edda5240492c066454c708dc57548d9b16d2869edc35",
+        "sha256_in_prefix": "8ce0c81dfef7a09651ff83b9b723b08b036c5ef904e70534834764412cdae087",
         "size_in_bytes": 5172040
       },
       {
@@ -1225,7 +1225,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/openssl_1740989479866/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
         "sha256": "193782d536ed3064b0e9a7a82c4a31e85f34f4a6b4fff44f5c88b81c76fb4ba0",
-        "sha256_in_prefix": "7a85600b61e2a961426a67d54a6245815694a9a25798a877fadb7823c46d43eb",
+        "sha256_in_prefix": "5d2342c840c3c7ae5867f237fb4fe72fa9e558432119a7068f5d15b357dd41a7",
         "size_in_bytes": 568
       },
       {
@@ -1234,7 +1234,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/openssl_1740989479866/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
         "sha256": "0d209635f692e54a0f3a906553086c06a7628a32ebbffe3d22bb531cc9f10354",
-        "sha256_in_prefix": "82ad21af69c25a1321088ae5d9f04573e1bfa38695dfd89053c3fe88bf94cc3f",
+        "sha256_in_prefix": "ef8e4baf44ee044e45ae70a2784103eea133b8fd1505ee7753c6553a089f5615",
         "size_in_bytes": 515
       },
       {
@@ -1243,7 +1243,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/openssl_1740989479866/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
         "sha256": "ec523c1431fcf054997b5a46f8aa429295c215227f408690ed8b7b95fdbdded3",
-        "sha256_in_prefix": "5d977d3a72879f84f34ef8263d8cab67f184c9978782bc877d1a176cf20ddc28",
+        "sha256_in_prefix": "0dffacc677b68fbd97b51641716543dcb1d9e32781b2765c7310626a1bb05fdf",
         "size_in_bytes": 469
       },
       {

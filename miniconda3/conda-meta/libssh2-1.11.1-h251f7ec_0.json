@@ -9,7 +9,7 @@
     "openssl >=3.0.15,<4.0a0",
     "zlib >=1.2.13,<1.3.0a0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/libssh2-1.11.1-h251f7ec_0",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/libssh2-1.11.1-h251f7ec_0",
   "files": [
     "include/libssh2.h",
     "include/libssh2_publickey.h",
@@ -223,12 +223,12 @@
   "license": "BSD-3-Clause",
   "license_family": "BSD",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/libssh2-1.11.1-h251f7ec_0",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/libssh2-1.11.1-h251f7ec_0",
     "type": 1
   },
   "md5": "dd68c24355431c0543339dda1404129d",
   "name": "libssh2",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/libssh2-1.11.1-h251f7ec_0.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/libssh2-1.11.1-h251f7ec_0.conda",
   "paths_data": {
     "paths": [
       {
@@ -237,7 +237,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/libssh2_1732891098804/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
         "sha256": "7599f3f5f4d469e8493513823568d030d7ab7b061fd7e3d2bc5c94966f518836",
-        "sha256_in_prefix": "c3e100aac87507de3fe95047ceffcbe2400f7871f40ae37b81b8a04e4f783735",
+        "sha256_in_prefix": "948cb86ff190350d45ebaad9e34fdb564d9467914510268762dcc708b0f6b1fb",
         "size_in_bytes": 851
       }
     ],

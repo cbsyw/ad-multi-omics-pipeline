@@ -12,7 +12,7 @@
     "openssl >=3.0.15,<4.0a0",
     "python >=3.12,<3.13.0a0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/cryptography-43.0.3-py312h7825ff9_1",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/cryptography-43.0.3-py312h7825ff9_1",
   "files": [
     "lib/python3.12/site-packages/cryptography-43.0.3.dist-info/INSTALLER",
     "lib/python3.12/site-packages/cryptography-43.0.3.dist-info/METADATA",
@@ -194,12 +194,12 @@
   "license": "Apache-2.0 OR BSD-3-Clause",
   "license_family": "OTHER",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/cryptography-43.0.3-py312h7825ff9_1",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/cryptography-43.0.3-py312h7825ff9_1",
     "type": 1
   },
   "md5": "1c255fd1f8a79304f4a316fb5304e07b",
   "name": "cryptography",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/cryptography-43.0.3-py312h7825ff9_1.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/cryptography-43.0.3-py312h7825ff9_1.conda",
   "paths_data": {
     "paths": [],
     "paths_version": 1

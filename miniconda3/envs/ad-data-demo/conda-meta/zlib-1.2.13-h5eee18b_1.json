@@ -6,7 +6,7 @@
   "depends": [
     "libgcc-ng >=11.2.0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/zlib-1.2.13-h5eee18b_1",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/zlib-1.2.13-h5eee18b_1",
   "files": [
     "include/zconf.h",
     "include/zlib.h",
@@ -19,12 +19,12 @@
   "fn": "zlib-1.2.13-h5eee18b_1.conda",
   "license": "Zlib",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/zlib-1.2.13-h5eee18b_1",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/zlib-1.2.13-h5eee18b_1",
     "type": 1
   },
   "md5": "92e42d8310108b0a440fb2e60b2b2a25",
   "name": "zlib",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/zlib-1.2.13-h5eee18b_1.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/zlib-1.2.13-h5eee18b_1.conda",
   "paths_data": {
     "paths": [
       {
@@ -73,7 +73,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/zlib_1714510689655/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
         "sha256": "ba5e30a1d9ec0d7104c68a8017603c7a0802afa18970c117eda9b3ab098fa0d5",
-        "sha256_in_prefix": "237ccc884f8c296adca96e604f08e6ea6a0ad2155aa0cdd85b6f7dbc34a474bd",
+        "sha256_in_prefix": "da0d73b160b9e25fc11445022206975402293071535066ee51151a31c41caaad",
         "size_in_bytes": 1487
       }
     ],

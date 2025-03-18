@@ -7,7 +7,7 @@
   "depends": [
     "python >=3.12,<3.13.0a0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/annotated-types-0.6.0-py312h06a4308_0",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/annotated-types-0.6.0-py312h06a4308_0",
   "files": [
     "lib/python3.12/site-packages/annotated_types-0.6.0.dist-info/INSTALLER",
     "lib/python3.12/site-packages/annotated_types-0.6.0.dist-info/METADATA",
@@ -26,12 +26,12 @@
   "license": "MIT",
   "license_family": "MIT",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/annotated-types-0.6.0-py312h06a4308_0",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/annotated-types-0.6.0-py312h06a4308_0",
     "type": 1
   },
   "md5": "03aa1a636640f8f94febe4779e5d37a7",
   "name": "annotated-types",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/annotated-types-0.6.0-py312h06a4308_0.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/annotated-types-0.6.0-py312h06a4308_0.conda",
   "paths_data": {
     "paths": [],
     "paths_version": 1

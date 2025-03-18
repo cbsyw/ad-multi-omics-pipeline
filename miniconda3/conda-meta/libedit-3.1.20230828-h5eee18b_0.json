@@ -8,7 +8,7 @@
     "libgcc-ng >=11.2.0",
     "ncurses >=6.4,<7.0a0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/libedit-3.1.20230828-h5eee18b_0",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/libedit-3.1.20230828-h5eee18b_0",
   "files": [
     "include/editline/readline.h",
     "include/histedit.h",
@@ -64,12 +64,12 @@
   "license": "BSD-2-Clause",
   "license_family": "BSD",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/libedit-3.1.20230828-h5eee18b_0",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/libedit-3.1.20230828-h5eee18b_0",
     "type": 1
   },
   "md5": "850eb5a9d2d7d3c66cce12e84406ca08",
   "name": "libedit",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/libedit-3.1.20230828-h5eee18b_0.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/libedit-3.1.20230828-h5eee18b_0.conda",
   "paths_data": {
     "paths": [
       {
@@ -78,7 +78,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/libedit_1703006211711/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
         "sha256": "63152b04c7cb731074dca2e05fd8200e137d6e782edcacba4a0cfe03cfc80cf5",
-        "sha256_in_prefix": "13b8ef60fb61439cb6762a03e00f489b4fcaeefb3dbb328d9911e9b99bf5d198",
+        "sha256_in_prefix": "e1b77425fcd427d7b9b1189d54cbf2a46382472c9dc631e0ae51ba960a6d2fa7",
         "size_in_bytes": 585
       }
     ],

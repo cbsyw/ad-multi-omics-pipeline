@@ -25,7 +25,7 @@
 
 # shellcheck disable=SC2006
 
-prefix='/home/ubuntu/sage-bio/miniconda3'
+prefix='/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3'
 # Used in 'libdir'
 # shellcheck disable=SC2034
 exec_prefix="${prefix}"
@@ -71,7 +71,7 @@ while test "$#" -gt 0; do
     ;;
 
   --ca)
-    echo '/home/ubuntu/sage-bio/miniconda3/ssl/cacert.pem'
+    echo '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/ssl/cacert.pem'
     ;;
 
   --cc)
@@ -161,7 +161,7 @@ while test "$#" -gt 0; do
       CURLLIBDIR=''
     fi
     if test 'Xyes' = 'Xno'; then
-      echo "${CURLLIBDIR}-lcurl -lnghttp2 -lssh2 -lssh2 -lssl -lcrypto -lssl -lcrypto -L/home/ubuntu/sage-bio/miniconda3/lib -lgssapi_krb5 -lzstd -lzstd -lz -pthread"
+      echo "${CURLLIBDIR}-lcurl -lnghttp2 -lssh2 -lssh2 -lssl -lcrypto -lssl -lcrypto -L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -lgssapi_krb5 -lzstd -lzstd -lz -pthread"
     else
       echo "${CURLLIBDIR}-lcurl"
     fi
@@ -173,7 +173,7 @@ while test "$#" -gt 0; do
 
   --static-libs)
     if test 'Xyes' != 'Xno'; then
-      echo "${exec_prefix}/lib/libcurl.a -L/home/ubuntu/sage-bio/miniconda3/lib -L/home/ubuntu/sage-bio/miniconda3/lib -L/home/ubuntu/sage-bio/miniconda3/lib -L/home/ubuntu/sage-bio/miniconda3/lib -L/home/ubuntu/sage-bio/miniconda3/lib -lnghttp2 -lssh2 -lssh2 -lssl -lcrypto -lssl -lcrypto -L/home/ubuntu/sage-bio/miniconda3/lib -lgssapi_krb5 -lzstd -lzstd -lz -pthread"
+      echo "${exec_prefix}/lib/libcurl.a -L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -lnghttp2 -lssh2 -lssh2 -lssl -lcrypto -lssl -lcrypto -L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -lgssapi_krb5 -lzstd -lzstd -lz -pthread"
     else
       echo 'curl was built with static libraries disabled' >&2
       exit 1
@@ -181,7 +181,7 @@ while test "$#" -gt 0; do
     ;;
 
   --configure)
-    echo " '--prefix=/home/ubuntu/sage-bio/miniconda3' '--host=x86_64-conda-linux-gnu' '--disable-ldap' '--disable-manual' '--enable-websockets' '--with-ca-bundle=/home/ubuntu/sage-bio/miniconda3/ssl/cacert.pem' '--with-openssl=/home/ubuntu/sage-bio/miniconda3' '--with-zlib=/home/ubuntu/sage-bio/miniconda3' '--with-zstd=/home/ubuntu/sage-bio/miniconda3' '--with-gssapi=/home/ubuntu/sage-bio/miniconda3' '--with-libssh2=/home/ubuntu/sage-bio/miniconda3' '--with-nghttp2=/home/ubuntu/sage-bio/miniconda3' '--without-libpsl' 'build_alias=x86_64-conda-linux-gnu' 'host_alias=x86_64-conda-linux-gnu' 'CC=/croot/curl_split_recipe_1734542023011/_build_env/bin/x86_64-conda-linux-gnu-cc' 'CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/ubuntu/sage-bio/miniconda3/include -fdebug-prefix-map=/croot/curl_split_recipe_1734542023011/work=/usr/local/src/conda/curl_split_recipe-8.11.1 -fdebug-prefix-map=/home/ubuntu/sage-bio/miniconda3=/usr/local/src/conda-prefix -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/ubuntu/sage-bio/miniconda3/include' 'LDFLAGS=-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/lib -Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/lib -L/home/ubuntu/sage-bio/miniconda3/lib' 'CPPFLAGS=-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/ubuntu/sage-bio/miniconda3/include' 'CPP=/croot/curl_split_recipe_1734542023011/_build_env/bin/x86_64-conda-linux-gnu-cpp'"
+    echo " '--prefix=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3' '--host=x86_64-conda-linux-gnu' '--disable-ldap' '--disable-manual' '--enable-websockets' '--with-ca-bundle=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/ssl/cacert.pem' '--with-openssl=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3' '--with-zlib=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3' '--with-zstd=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3' '--with-gssapi=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3' '--with-libssh2=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3' '--with-nghttp2=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3' '--without-libpsl' 'build_alias=x86_64-conda-linux-gnu' 'host_alias=x86_64-conda-linux-gnu' 'CC=/croot/curl_split_recipe_1734542023011/_build_env/bin/x86_64-conda-linux-gnu-cc' 'CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include -fdebug-prefix-map=/croot/curl_split_recipe_1734542023011/work=/usr/local/src/conda/curl_split_recipe-8.11.1 -fdebug-prefix-map=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3=/usr/local/src/conda-prefix -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include' 'LDFLAGS=-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib' 'CPPFLAGS=-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include' 'CPP=/croot/curl_split_recipe_1734542023011/_build_env/bin/x86_64-conda-linux-gnu-cpp'"
     ;;
 
   *)

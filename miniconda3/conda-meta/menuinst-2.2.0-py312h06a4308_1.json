@@ -7,7 +7,7 @@
   "depends": [
     "python >=3.12,<3.13.0a0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/menuinst-2.2.0-py312h06a4308_1",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/menuinst-2.2.0-py312h06a4308_1",
   "files": [
     "lib/python3.12/site-packages/menuinst-2.2.0.dist-info/AUTHORS.md",
     "lib/python3.12/site-packages/menuinst-2.2.0.dist-info/INSTALLER",
@@ -81,12 +81,12 @@
   "license": "BSD-3-Clause AND MIT",
   "license_family": "BSD",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/menuinst-2.2.0-py312h06a4308_1",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/menuinst-2.2.0-py312h06a4308_1",
     "type": 1
   },
   "md5": "296b7b5831d589100cf2b661c85a5b88",
   "name": "menuinst",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/menuinst-2.2.0-py312h06a4308_1.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/menuinst-2.2.0-py312h06a4308_1.conda",
   "paths_data": {
     "paths": [],
     "paths_version": 1

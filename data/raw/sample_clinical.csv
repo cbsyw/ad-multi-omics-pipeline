@@ -1,0 +1,10 @@
+subject_id,age,sex,diagnosis,mmse_score,education_years,apoe_status
+AD001,73,M,AD,20,12,E4/E4
+AD002,65,F,AD,22,16,E3/E4
+AD003,82,M,AD,18,10,E3/E4
+CN001,70,F,Control,29,14,E3/E3
+CN002,68,M,Control,30,16,E3/E3
+CN003,75,F,Control,28,12,E3/E3
+MCI001,71,M,MCI,25,15,E3/E4
+MCI002,69,F,MCI,26,12,E3/E3
+MCI003,77,M,MCI,24,16,E4/E4

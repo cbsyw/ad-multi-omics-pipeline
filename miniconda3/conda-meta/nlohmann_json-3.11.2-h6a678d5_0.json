@@ -5,7 +5,7 @@
   "channel": "https://repo.anaconda.com/pkgs/main",
   "constrains": [],
   "depends": [],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/nlohmann_json-3.11.2-h6a678d5_0",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/nlohmann_json-3.11.2-h6a678d5_0",
   "files": [
     "include/nlohmann/adl_serializer.hpp",
     "include/nlohmann/byte_container_with_subtype.hpp",
@@ -61,12 +61,12 @@
   "license": "MIT",
   "license_family": "MIT",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/nlohmann_json-3.11.2-h6a678d5_0",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/nlohmann_json-3.11.2-h6a678d5_0",
     "type": 1
   },
   "md5": "36890f7abd98066b607211b1773e6343",
   "name": "nlohmann_json",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/nlohmann_json-3.11.2-h6a678d5_0.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/nlohmann_json-3.11.2-h6a678d5_0.conda",
   "paths_data": {
     "paths": [
       {
@@ -75,7 +75,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/nlohmann_json_1680082006773/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
         "sha256": "8d2423852a2747cee076112bf2a0549b21c94d6ecb0f3e7cb8b58e8d86b6c606",
-        "sha256_in_prefix": "5ccd18f8f29cf51d3fe0e07681ce487b73f447daddce2b24e9864de2dca09b33",
+        "sha256_in_prefix": "7cae2e8d3c5bdb748206be86412802a28e9f11847b4790e8b4cc8ca574b9185b",
         "size_in_bytes": 343
       }
     ],

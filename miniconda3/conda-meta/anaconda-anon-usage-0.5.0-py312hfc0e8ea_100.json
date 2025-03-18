@@ -9,7 +9,7 @@
   "depends": [
     "python >=3.12,<3.13.0a0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/anaconda-anon-usage-0.5.0-py312hfc0e8ea_100",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/anaconda-anon-usage-0.5.0-py312hfc0e8ea_100",
   "files": [
     "lib/python3.12/site-packages/anaconda_anon_usage-0.5.0.dist-info/INSTALLER",
     "lib/python3.12/site-packages/anaconda_anon_usage-0.5.0.dist-info/LICENSE",
@@ -38,12 +38,12 @@
   "license": "BSD-3-Clause",
   "license_family": "BSD",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/anaconda-anon-usage-0.5.0-py312hfc0e8ea_100",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/anaconda-anon-usage-0.5.0-py312hfc0e8ea_100",
     "type": 1
   },
   "md5": "d47669c8f312a5d2be0a5e095bb8e896",
   "name": "anaconda-anon-usage",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/anaconda-anon-usage-0.5.0-py312hfc0e8ea_100.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/anaconda-anon-usage-0.5.0-py312hfc0e8ea_100.conda",
   "paths_data": {
     "paths": [],
     "paths_version": 1

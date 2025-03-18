@@ -6,7 +6,7 @@
   "depends": [
     "python >=3.6"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/pycparser-2.21-pyhd3eb1b0_0",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/pycparser-2.21-pyhd3eb1b0_0",
   "files": [
     "lib/python3.12/site-packages/pycparser-2.21.dist-info/INSTALLER",
     "lib/python3.12/site-packages/pycparser-2.21.dist-info/LICENSE",
@@ -56,13 +56,13 @@
   "license": "BSD-3-clause",
   "license_family": "BSD",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/pycparser-2.21-pyhd3eb1b0_0",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/pycparser-2.21-pyhd3eb1b0_0",
     "type": 1
   },
   "md5": "135a72ff2a31150a3a3ff0b1edd41ca9",
   "name": "pycparser",
   "noarch": "python",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/pycparser-2.21-pyhd3eb1b0_0.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/pycparser-2.21-pyhd3eb1b0_0.conda",
   "package_type": "noarch_python",
   "paths_data": {
     "paths": [

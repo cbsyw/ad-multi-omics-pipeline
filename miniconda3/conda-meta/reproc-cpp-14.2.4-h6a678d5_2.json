@@ -9,7 +9,7 @@
     "libstdcxx-ng >=11.2.0",
     "reproc 14.2.4 h6a678d5_2"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/reproc-cpp-14.2.4-h6a678d5_2",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/reproc-cpp-14.2.4-h6a678d5_2",
   "files": [
     "include/reproc++/arguments.hpp",
     "include/reproc++/detail/array.hpp",
@@ -33,12 +33,12 @@
   "license": "MIT",
   "license_family": "MIT",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/reproc-cpp-14.2.4-h6a678d5_2",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/reproc-cpp-14.2.4-h6a678d5_2",
     "type": 1
   },
   "md5": "b03aa4903158279f003e7032ab9f5601",
   "name": "reproc-cpp",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/reproc-cpp-14.2.4-h6a678d5_2.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/reproc-cpp-14.2.4-h6a678d5_2.conda",
   "paths_data": {
     "paths": [
       {
@@ -47,7 +47,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/reproc_1714680872521/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
         "sha256": "fc6da3aa7959395fd9ef40addb7f20becabd1b3cbb62d63c7f6dfd796ece270e",
-        "sha256_in_prefix": "155183ca4953a8bf0fb61bc05cd75861a132b334df2f4ff6c928a84ab3159ba8",
+        "sha256_in_prefix": "d984beed778a8b80f22b7f0eb5a00365d537d3807a66931b8fa1a25ffd22a74e",
         "size_in_bytes": 579
       }
     ],

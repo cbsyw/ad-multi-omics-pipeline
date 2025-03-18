@@ -8,7 +8,7 @@
     "libgcc-ng >=11.2.0",
     "zlib >=1.2.13,<1.3.0a0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/tk-8.6.14-h39e8969_0",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/tk-8.6.14-h39e8969_0",
   "files": [
     "bin/sqlite3_analyzer",
     "bin/tclsh",
@@ -533,12 +533,12 @@
   "license": "TCL",
   "license_family": "BSD",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/tk-8.6.14-h39e8969_0",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/tk-8.6.14-h39e8969_0",
     "type": 1
   },
   "md5": "78dbc5e3c69143ebc037fc5d5b22e597",
   "name": "tk",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/tk-8.6.14-h39e8969_0.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/tk-8.6.14-h39e8969_0.conda",
   "paths_data": {
     "paths": [
       {
@@ -547,7 +547,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/tk_1714770549989/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
         "sha256": "08a380a124a3515d3470f6e86245d52fb6dec9ad63f23ad258037f2f64d4f321",
-        "sha256_in_prefix": "ed2d2b7fecedd6a352970db61c8524a86270ec05e9b8704c8f57c95373af4a87",
+        "sha256_in_prefix": "6c50064c286c2e566a3473360c294af266a782d5cf56113b7de3aa28b506399e",
         "size_in_bytes": 4492
       },
       {
@@ -556,7 +556,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/tk_1714770549989/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
         "sha256": "f8791d47d4b8d4fecfea32fd69fa269fdfce308ff21d7801a9b99db9423cf4c9",
-        "sha256_in_prefix": "ae7a39ddfa1e3d9f48d3600a7a1d6f40116169e5c03acf55c8452ed0f78fd2ab",
+        "sha256_in_prefix": "7a0808ab1f8894b3db50df7e007802573a6aebe84ca31a6aa5349df60da3bcd3",
         "size_in_bytes": 1983416
       },
       {
@@ -565,7 +565,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/tk_1714770549989/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
         "sha256": "82d535e89c6a64dfe7a7e0041cac18bb544fa428af22c96f941750d1b2064fbf",
-        "sha256_in_prefix": "3e8c4a6e15f0ed9212e32392f2413ae68d91a28e53c40daaca9c64424e1aa763",
+        "sha256_in_prefix": "5f4b6f72a28890f930a22a61f84bedafe2deb70a39b5197ca3d1866c428cc97b",
         "size_in_bytes": 1199
       },
       {
@@ -574,7 +574,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/tk_1714770549989/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
         "sha256": "4c911771c296d053f14bd81a0df530665f711b1845b3e9e76c450a814a871d4b",
-        "sha256_in_prefix": "1bd75b19f685acd056466fc973764e1f10b197bd5274ce7e70774c90ef10af37",
+        "sha256_in_prefix": "99bf3d36045217f57db7626d976db4f2ea0476fcec53a367fb9214915384a970",
         "size_in_bytes": 1180
       },
       {
@@ -583,7 +583,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/tk_1714770549989/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
         "sha256": "b6a6bc6be20c6962a717ff2037f2f00c2f91f90d2eb34277d10a68d35a7dfff2",
-        "sha256_in_prefix": "3461fb4ba0fe78e85a48cedd31462af61e13e63b7e6d803c175260c559c681f1",
+        "sha256_in_prefix": "a4bc303fb9f11f00110d88185e6fb3b28d25c828a39a0fb99927ccb6c57ff222",
         "size_in_bytes": 11776
       },
       {
@@ -592,7 +592,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/tk_1714770549989/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
         "sha256": "d95fdf5299fd345d079afb703a0484f8bda004f64df398ad86a58e944e12df8c",
-        "sha256_in_prefix": "314fc78894d2abdb7e790b8343acccb6db17510c74f0851e7bd765c422172dfd",
+        "sha256_in_prefix": "6257a9a54d36f8d3d70927a21491137b9f8b3181c16bf5f10383a93d18d74a03",
         "size_in_bytes": 6067
       },
       {
@@ -601,7 +601,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/tk_1714770549989/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
         "sha256": "cedaa299b41f9d83d102c1e0e1894f0cd9bea9fb83917843683999b2699a910f",
-        "sha256_in_prefix": "8d48513d03d2c12008b535af7b4925b8661e48edbb9289c676197f0f36045ece",
+        "sha256_in_prefix": "632a5314c27ed9e3364c112996503217a553af229884846df7c263ad38337de7",
         "size_in_bytes": 5661
       }
     ],

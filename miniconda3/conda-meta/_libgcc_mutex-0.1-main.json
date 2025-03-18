@@ -5,17 +5,17 @@
   "channel": "https://repo.anaconda.com/pkgs/main",
   "constrains": [],
   "depends": [],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/_libgcc_mutex-0.1-main",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/_libgcc_mutex-0.1-main",
   "files": [],
   "fn": "_libgcc_mutex-0.1-main.conda",
   "license": "",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/_libgcc_mutex-0.1-main",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/_libgcc_mutex-0.1-main",
     "type": 1
   },
   "md5": "c3473ff8bdb3d124ed5ff11ec380d6f9",
   "name": "_libgcc_mutex",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/_libgcc_mutex-0.1-main.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/_libgcc_mutex-0.1-main.conda",
   "paths_data": {
     "paths": [],
     "paths_version": 1

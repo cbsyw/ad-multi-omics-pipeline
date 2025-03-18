@@ -8,7 +8,7 @@
     "libgcc-ng >=11.2.0",
     "python >=3.12,<3.13.0a0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/ruamel.yaml.clib-0.2.8-py312h5eee18b_0",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/ruamel.yaml.clib-0.2.8-py312h5eee18b_0",
   "files": [
     "lib/python3.12/site-packages/_ruamel_yaml.cpython-312-x86_64-linux-gnu.so",
     "lib/python3.12/site-packages/ruamel.yaml.clib-0.2.8.dist-info/INSTALLER",
@@ -24,12 +24,12 @@
   "license": "MIT",
   "license_family": "MIT",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/ruamel.yaml.clib-0.2.8-py312h5eee18b_0",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/ruamel.yaml.clib-0.2.8-py312h5eee18b_0",
     "type": 1
   },
   "md5": "4e151915d3acb78754b5cd1be029fcd2",
   "name": "ruamel.yaml.clib",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/ruamel.yaml.clib-0.2.8-py312h5eee18b_0.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/ruamel.yaml.clib-0.2.8-py312h5eee18b_0.conda",
   "paths_data": {
     "paths": [],
     "paths_version": 1

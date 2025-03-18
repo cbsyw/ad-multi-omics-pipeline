@@ -1,7 +1,7 @@
-prefix=/home/ubuntu/sage-bio/miniconda3
+prefix=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3
 exec_prefix=${prefix}
-includedir=/home/ubuntu/sage-bio/miniconda3/include
-libdir=/home/ubuntu/sage-bio/miniconda3/lib
+includedir=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include
+libdir=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib
 
 Name: Yaml-cpp
 Description: A YAML parser and emitter for C++

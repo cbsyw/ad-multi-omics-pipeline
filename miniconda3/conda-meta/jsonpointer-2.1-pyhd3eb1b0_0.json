@@ -6,7 +6,7 @@
   "depends": [
     "python"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/jsonpointer-2.1-pyhd3eb1b0_0",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/jsonpointer-2.1-pyhd3eb1b0_0",
   "files": [
     "bin/jsonpointer",
     "lib/python3.12/site-packages/jsonpointer-2.1-py3.6.egg-info/PKG-INFO",
@@ -20,13 +20,13 @@
   "license": "BSD 3-Clause",
   "license_family": "BSD",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/jsonpointer-2.1-pyhd3eb1b0_0",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/jsonpointer-2.1-pyhd3eb1b0_0",
     "type": 1
   },
   "md5": "298ff809e733cb04366e4e629c65aa8d",
   "name": "jsonpointer",
   "noarch": "python",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/jsonpointer-2.1-pyhd3eb1b0_0.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/jsonpointer-2.1-pyhd3eb1b0_0.conda",
   "package_type": "noarch_python",
   "paths_data": {
     "paths": [
@@ -36,7 +36,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/tmp/build/80754af9/jsonpointer_1615660556387/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
         "sha256": "67c40790083f55d0128220565b66fa320e9d12fec90993f0974f72ee4722c8c7",
-        "sha256_in_prefix": "2d1411a6b04827fd5f9d8585059ac4569dbf2ae00ef9870a91520b543a9b5018",
+        "sha256_in_prefix": "b29343b8a195c0e637b8e69b89053f74bda5389caba04ab2ba4c10650b9618a8",
         "size_in_bytes": 2087
       },
       {

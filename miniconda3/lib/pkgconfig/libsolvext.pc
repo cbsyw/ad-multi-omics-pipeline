@@ -1,5 +1,5 @@
-libdir=/home/ubuntu/sage-bio/miniconda3/lib
-includedir=/home/ubuntu/sage-bio/miniconda3/include
+libdir=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib
+includedir=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include
 
 Name: libsolvext
 Description: Library for reading repositories

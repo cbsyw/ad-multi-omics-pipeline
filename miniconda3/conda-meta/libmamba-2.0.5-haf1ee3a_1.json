@@ -22,7 +22,7 @@
     "yaml-cpp >=0.8.0,<0.9.0a0",
     "zstd >=1.5.2,<1.6.0a0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/libmamba-2.0.5-haf1ee3a_1",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/libmamba-2.0.5-haf1ee3a_1",
   "files": [
     "bin/mamba-package",
     "etc/profile.d/mamba.sh",
@@ -161,12 +161,12 @@
   "license": "BSD-3-Clause",
   "license_family": "BSD",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/libmamba-2.0.5-haf1ee3a_1",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/libmamba-2.0.5-haf1ee3a_1",
     "type": 1
   },
   "md5": "0f1450592dc7555e315f5d684ce481eb",
   "name": "libmamba",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/libmamba-2.0.5-haf1ee3a_1.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/libmamba-2.0.5-haf1ee3a_1.conda",
   "paths_data": {
     "paths": [
       {
@@ -175,7 +175,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/mamba-split_1734469461757/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
         "sha256": "bd7ccf64d7305e4a90bd9f597e748133c5bd301d72e0a0b52bf0f45802b32f8b",
-        "sha256_in_prefix": "167b5aa42028e5feb172af13f4c44e4194286880f21022a1e1e9598b1e318009",
+        "sha256_in_prefix": "419dbc01c1e0f10dce68640ee242132e5f6ccf24ec9035fc50c9a42aa75467f6",
         "size_in_bytes": 1008
       }
     ],

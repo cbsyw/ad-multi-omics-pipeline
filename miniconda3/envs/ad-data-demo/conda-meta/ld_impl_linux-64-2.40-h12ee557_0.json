@@ -6,7 +6,7 @@
     "binutils_impl_linux-64 2.40"
   ],
   "depends": [],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/ld_impl_linux-64-2.40-h12ee557_0",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/ld_impl_linux-64-2.40-h12ee557_0",
   "files": [
     "bin/x86_64-conda-linux-gnu-ld",
     "bin/x86_64-conda_cos7-linux-gnu-ld",
@@ -16,12 +16,12 @@
   "fn": "ld_impl_linux-64-2.40-h12ee557_0.conda",
   "license": "GPL-3.0-only",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/ld_impl_linux-64-2.40-h12ee557_0",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/ld_impl_linux-64-2.40-h12ee557_0",
     "type": 1
   },
   "md5": "ee672b5f635340734f58d618b7bca024",
   "name": "ld_impl_linux-64",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/ld_impl_linux-64-2.40-h12ee557_0.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/ld_impl_linux-64-2.40-h12ee557_0.conda",
   "paths_data": {
     "paths": [
       {

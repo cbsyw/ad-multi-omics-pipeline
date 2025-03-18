@@ -1,4 +1,4 @@
-#!/home/ubuntu/sage-bio/miniconda3/bin/python3.12
+#!/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/bin/python3.12
 # -*- python -*-
 
 # Keep this script in sync with python-config.sh.in

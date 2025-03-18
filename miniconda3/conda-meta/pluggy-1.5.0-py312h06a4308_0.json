@@ -7,7 +7,7 @@
   "depends": [
     "python >=3.12,<3.13.0a0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/pluggy-1.5.0-py312h06a4308_0",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/pluggy-1.5.0-py312h06a4308_0",
   "files": [
     "lib/python3.12/site-packages/pluggy-1.5.0.dist-info/INSTALLER",
     "lib/python3.12/site-packages/pluggy-1.5.0.dist-info/LICENSE",
@@ -39,12 +39,12 @@
   "license": "MIT",
   "license_family": "MIT",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/pluggy-1.5.0-py312h06a4308_0",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/pluggy-1.5.0-py312h06a4308_0",
     "type": 1
   },
   "md5": "1287a7b660a041fbbb8931defb9111d6",
   "name": "pluggy",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/pluggy-1.5.0-py312h06a4308_0.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/pluggy-1.5.0-py312h06a4308_0.conda",
   "paths_data": {
     "paths": [],
     "paths_version": 1

@@ -1,4 +1,4 @@
-prefix=/home/ubuntu/sage-bio/miniconda3
+prefix=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3
 includedir=${prefix}/include
 libdir=${prefix}/lib
 

@@ -9,7 +9,7 @@
   "depends": [
     "python >=3.12,<3.13.0a0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/tqdm-4.67.1-py312he106c6f_0",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/tqdm-4.67.1-py312he106c6f_0",
   "files": [
     "bin/tqdm",
     "lib/python3.12/site-packages/tqdm-4.67.1.dist-info/INSTALLER",
@@ -92,12 +92,12 @@
   "license": "MPL-2.0 AND MIT",
   "license_family": "MOZILLA",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/tqdm-4.67.1-py312he106c6f_0",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/tqdm-4.67.1-py312he106c6f_0",
     "type": 1
   },
   "md5": "24ce31187969ffa550529856f3a6cfee",
   "name": "tqdm",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/tqdm-4.67.1-py312he106c6f_0.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/tqdm-4.67.1-py312he106c6f_0.conda",
   "paths_data": {
     "paths": [
       {
@@ -106,7 +106,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/tqdm_1738943501192/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
         "sha256": "17c3057c28dacac46d96eef11f17f433738222ae436bdcab18faeaaa0ad5e49c",
-        "sha256_in_prefix": "33481d9205dbf84a400b3020136be77033aa8cb47b7c6a07be3aa809782645a2",
+        "sha256_in_prefix": "fd8fca6a6c81a7bcc1415260b5920ae281a990a95bfa0f2577d9e4dd46e6d49e",
         "size_in_bytes": 461
       }
     ],

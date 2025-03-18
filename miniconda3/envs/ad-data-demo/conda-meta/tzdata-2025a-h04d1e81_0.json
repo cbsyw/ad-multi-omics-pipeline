@@ -4,7 +4,7 @@
   "channel": "https://repo.anaconda.com/pkgs/main",
   "constrains": [],
   "depends": [],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/tzdata-2025a-h04d1e81_0",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/tzdata-2025a-h04d1e81_0",
   "files": [
     "share/zoneinfo/Africa/Abidjan",
     "share/zoneinfo/Africa/Accra",
@@ -615,13 +615,13 @@
   "fn": "tzdata-2025a-h04d1e81_0.conda",
   "license": "CC-PDDC OR BSD-3-Clause",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/tzdata-2025a-h04d1e81_0",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/tzdata-2025a-h04d1e81_0",
     "type": 1
   },
   "md5": "885caf42f821b98b3321dc4108511a3d",
   "name": "tzdata",
   "noarch": "generic",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/tzdata-2025a-h04d1e81_0.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/tzdata-2025a-h04d1e81_0.conda",
   "package_type": "noarch_generic",
   "paths_data": {
     "paths": [

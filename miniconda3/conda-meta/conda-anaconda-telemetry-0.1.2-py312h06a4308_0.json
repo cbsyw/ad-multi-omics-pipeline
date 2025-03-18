@@ -8,7 +8,7 @@
     "conda >=24.11",
     "python >=3.12,<3.13.0a0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/conda-anaconda-telemetry-0.1.2-py312h06a4308_0",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/conda-anaconda-telemetry-0.1.2-py312h06a4308_0",
   "files": [
     "lib/python3.12/site-packages/conda_anaconda_telemetry-0.1.2.dist-info/INSTALLER",
     "lib/python3.12/site-packages/conda_anaconda_telemetry-0.1.2.dist-info/METADATA",
@@ -30,12 +30,12 @@
   "license": "BSD-3-Clause",
   "license_family": "BSD",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/conda-anaconda-telemetry-0.1.2-py312h06a4308_0",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/conda-anaconda-telemetry-0.1.2-py312h06a4308_0",
     "type": 1
   },
   "md5": "b640f7443708323e39eee94c77cc25e6",
   "name": "conda-anaconda-telemetry",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/conda-anaconda-telemetry-0.1.2-py312h06a4308_0.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/conda-anaconda-telemetry-0.1.2-py312h06a4308_0.conda",
   "paths_data": {
     "paths": [],
     "paths_version": 1

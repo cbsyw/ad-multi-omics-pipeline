@@ -1,6 +1,6 @@
 #! /bin/sh
 
-prefix=/home/ubuntu/sage-bio/miniconda3
+prefix=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3
 exec_prefix=${prefix}
 includedir=${prefix}/include
 libdir=${exec_prefix}/lib
@@ -67,7 +67,7 @@ while test $# -gt 0; do
 	;;
 
     --cflags)
-        cflags="-I${includedir}/libxml2 -I/home/ubuntu/sage-bio/miniconda3/include "
+        cflags="-I${includedir}/libxml2 -I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include "
        	;;
 
     --libtool-libs)
@@ -86,7 +86,7 @@ while test $# -gt 0; do
             shift
             libs="-lxml2 "
         else
-            libs="-lxml2  -L/home/ubuntu/sage-bio/miniconda3/lib -lz -L/home/ubuntu/sage-bio/miniconda3/lib -llzma -L/home/ubuntu/sage-bio/miniconda3/lib -licui18n -licuuc -licudata  -L/home/ubuntu/sage-bio/miniconda3/lib  -lm   -ldl "
+            libs="-lxml2  -L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -lz -L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -llzma -L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -licui18n -licuuc -licudata  -L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib  -lm   -ldl "
         fi
 
         if [ "-L${libdir}" != "-L/usr/lib" -a "-L${libdir}" != "-L/usr/lib64" ]; then

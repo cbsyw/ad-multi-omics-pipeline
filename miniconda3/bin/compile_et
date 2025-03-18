@@ -2,7 +2,7 @@
 #
 #
 AWK=gawk
-DIR=/home/ubuntu/sage-bio/miniconda3/share/et
+DIR=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/share/et
 
 usage="usage: $0 [ -d scriptDir ] [ --textdomain domain [ --localedir dir ] ]"
 usage="$usage inputfile.et"

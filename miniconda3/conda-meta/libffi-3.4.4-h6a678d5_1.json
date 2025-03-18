@@ -8,7 +8,7 @@
     "libgcc-ng >=11.2.0",
     "libstdcxx-ng >=11.2.0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/libffi-3.4.4-h6a678d5_1",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/libffi-3.4.4-h6a678d5_1",
   "files": [
     "include/ffi.h",
     "include/ffitarget.h",
@@ -30,12 +30,12 @@
   "license": "MIT",
   "license_family": "MIT",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/libffi-3.4.4-h6a678d5_1",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/libffi-3.4.4-h6a678d5_1",
     "type": 1
   },
   "md5": "70646cc713f0c43926cfdcfe9b695fe0",
   "name": "libffi",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/libffi-3.4.4-h6a678d5_1.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/libffi-3.4.4-h6a678d5_1.conda",
   "paths_data": {
     "paths": [
       {
@@ -44,7 +44,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/libffi_1714483243560/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
         "sha256": "d42c74b8e17b72244a609b67b6f23d18da75e961f35ae11a8be0f205daee22b4",
-        "sha256_in_prefix": "3e32cbe74ac0ec010b8175f91eb4def91e894807444a05a1ce4798009344e808",
+        "sha256_in_prefix": "5789063b878b08203e6ee0cb73b9a87d1876248fb4ab598e738413d9e984f9a5",
         "size_in_bytes": 756
       }
     ],

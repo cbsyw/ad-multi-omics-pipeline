@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: 0BSD
 # Author: Lasse Collin
 
-prefix=/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo
+prefix=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

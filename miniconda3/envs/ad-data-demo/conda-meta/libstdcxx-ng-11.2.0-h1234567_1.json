@@ -6,7 +6,7 @@
   "depends": [
     "__glibc >=2.17"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/libstdcxx-ng-11.2.0-h1234567_1",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/libstdcxx-ng-11.2.0-h1234567_1",
   "files": [
     "lib/libstdc++.so",
     "lib/libstdc++.so.6",
@@ -16,12 +16,12 @@
   "fn": "libstdcxx-ng-11.2.0-h1234567_1.conda",
   "license": "GPL-3.0-only WITH GCC-exception-3.1",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/libstdcxx-ng-11.2.0-h1234567_1",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/libstdcxx-ng-11.2.0-h1234567_1",
     "type": 1
   },
   "md5": "57623d10a70e09e1d048c2b2b6f4e2dd",
   "name": "libstdcxx-ng",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/libstdcxx-ng-11.2.0-h1234567_1.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/libstdcxx-ng-11.2.0-h1234567_1.conda",
   "paths_data": {
     "paths": [
       {

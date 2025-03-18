@@ -1,8 +1,8 @@
 # tcl pkg-config source file
 
-prefix=/home/ubuntu/sage-bio/miniconda3
-exec_prefix=/home/ubuntu/sage-bio/miniconda3
-libdir=/home/ubuntu/sage-bio/miniconda3/lib
+prefix=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3
+exec_prefix=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3
+libdir=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib
 includedir=${prefix}/include
 libfile=libtcl8.6.so
 

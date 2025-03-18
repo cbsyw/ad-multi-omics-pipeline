@@ -4,7 +4,7 @@
   "channel": "https://repo.anaconda.com/pkgs/main",
   "constrains": [],
   "depends": [],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/ca-certificates-2025.2.25-h06a4308_0",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/ca-certificates-2025.2.25-h06a4308_0",
   "files": [
     "ssl/cacert.pem",
     "ssl/cert.pem"
@@ -12,12 +12,12 @@
   "fn": "ca-certificates-2025.2.25-h06a4308_0.conda",
   "license": "MPL-2.0",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/ca-certificates-2025.2.25-h06a4308_0",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/ca-certificates-2025.2.25-h06a4308_0",
     "type": 1
   },
   "md5": "495015d24da8ad929e3ae2d18571016d",
   "name": "ca-certificates",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/ca-certificates-2025.2.25-h06a4308_0.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/ca-certificates-2025.2.25-h06a4308_0.conda",
   "paths_data": {
     "paths": [
       {

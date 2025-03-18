@@ -1,7 +1,7 @@
-prefix=/home/ubuntu/sage-bio/miniconda3
-exec_prefix=/home/ubuntu/sage-bio/miniconda3
-libdir=/home/ubuntu/sage-bio/miniconda3/lib
-includedir=/home/ubuntu/sage-bio/miniconda3/include
+prefix=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3
+exec_prefix=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3
+libdir=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib
+includedir=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include
 
 Name: uuid
 Description: Universally unique id library

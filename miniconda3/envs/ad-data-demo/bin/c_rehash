@@ -13,7 +13,7 @@
 # and add symbolic links to their hash values.
 
 my $dir = "";
-my $prefix = "/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo";
+my $prefix = "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo";
 
 my $errorcount = 0;
 my $openssl = $ENV{OPENSSL} || "openssl";

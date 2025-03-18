@@ -90,9 +90,9 @@ https://repo.anaconda.com/pkgs/main/linux-64/conda-anaconda-telemetry-0.1.2-py31
 https://repo.anaconda.com/pkgs/main/linux-64/conda-anaconda-tos-0.1.2-py312h06a4308_0.conda
 https://repo.anaconda.com/pkgs/main/noarch/conda-libmamba-solver-25.1.1-pyhd3eb1b0_0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/xz-5.6.4-h5eee18b_1.conda
-https://repo.anaconda.com/pkgs/main/linux-64/setuptools-75.8.0-py39h06a4308_0.conda
-https://repo.anaconda.com/pkgs/main/linux-64/pip-25.0-py39h06a4308_0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/ca-certificates-2025.2.25-h06a4308_0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/wheel-0.45.1-py39h06a4308_0.conda
+https://repo.anaconda.com/pkgs/main/linux-64/setuptools-75.8.0-py39h06a4308_0.conda
+https://repo.anaconda.com/pkgs/main/linux-64/pip-25.0-py39h06a4308_0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/openssl-3.0.16-h5eee18b_0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/python-3.9.21-he870216_1.conda

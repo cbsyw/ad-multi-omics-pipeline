@@ -9,7 +9,7 @@
     "libstdcxx-ng >=11.2.0",
     "python >=3.12,<3.13.0a0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/brotli-python-1.0.9-py312h6a678d5_9",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/brotli-python-1.0.9-py312h6a678d5_9",
   "files": [
     "lib/python3.12/site-packages/Brotli-1.0.9.dist-info/INSTALLER",
     "lib/python3.12/site-packages/Brotli-1.0.9.dist-info/LICENSE",
@@ -27,12 +27,12 @@
   "fn": "brotli-python-1.0.9-py312h6a678d5_9.conda",
   "license": "MIT",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/brotli-python-1.0.9-py312h6a678d5_9",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/brotli-python-1.0.9-py312h6a678d5_9",
     "type": 1
   },
   "md5": "691e2e7e55034d39c94554532d33f223",
   "name": "brotli-python",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/brotli-python-1.0.9-py312h6a678d5_9.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/brotli-python-1.0.9-py312h6a678d5_9.conda",
   "paths_data": {
     "paths": [],
     "paths_version": 1

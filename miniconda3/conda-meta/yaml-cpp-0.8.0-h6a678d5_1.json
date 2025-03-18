@@ -8,7 +8,7 @@
     "libgcc-ng >=11.2.0",
     "libstdcxx-ng >=11.2.0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/yaml-cpp-0.8.0-h6a678d5_1",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/yaml-cpp-0.8.0-h6a678d5_1",
   "files": [
     "include/gmock/gmock-actions.h",
     "include/gmock/gmock-cardinalities.h",
@@ -115,12 +115,12 @@
   "license": "MIT",
   "license_family": "MIT",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/yaml-cpp-0.8.0-h6a678d5_1",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/yaml-cpp-0.8.0-h6a678d5_1",
     "type": 1
   },
   "md5": "015d2d74ad3c8e53eec3358637433718",
   "name": "yaml-cpp",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/yaml-cpp-0.8.0-h6a678d5_1.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/yaml-cpp-0.8.0-h6a678d5_1.conda",
   "paths_data": {
     "paths": [
       {
@@ -129,7 +129,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/yaml-cpp-split_1714510678659/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
         "sha256": "1bde9c5e787410377fd80e411e69d3718cf91b60c37fb5cea5eeca9a5b254c09",
-        "sha256_in_prefix": "4301308985fedf2f200e5b26aaae9c8373d7075864071e906bb4578186b08472",
+        "sha256_in_prefix": "e82c3c1d27d0e4f700b8081c6e6c8da9be5e80ae6625aae1b5b892395a1bce07",
         "size_in_bytes": 770
       },
       {
@@ -138,7 +138,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/yaml-cpp-split_1714510678659/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
         "sha256": "bd845ab56658a45407002236e0736de2a4bc924bf415e2181f27d1c5885b1f19",
-        "sha256_in_prefix": "0e188e89b206f9ab0da271769409bf92b6af6c21d4a8d4efeb7a6f2641271ea7",
+        "sha256_in_prefix": "33548aa125827099a2e88afede9d1ea960ba494ba7cf0fe149ebd47d6087f956",
         "size_in_bytes": 777
       },
       {
@@ -147,7 +147,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/yaml-cpp-split_1714510678659/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
         "sha256": "2f6f1a0e3defe86fe9e3722e19cb4d5973bfde3b73b95e9f7628ab9a49c48fd9",
-        "sha256_in_prefix": "e62399f80f2a592a1686e5cea6bebff7d2c9cb604f956d5f85bb2f075de41d82",
+        "sha256_in_prefix": "04bedb0c9ab610ea07f7c54fd8c6d09d8efe2e6765265a2ab31f68f5a22ab536",
         "size_in_bytes": 745
       },
       {
@@ -156,7 +156,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/yaml-cpp-split_1714510678659/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
         "sha256": "d34f4f4698b25386a4e1f3237a6b3a4accaa70ccbc7a191fa9d978861bcda24b",
-        "sha256_in_prefix": "d1361d15ea2fb4f443dd16c5e7acb59743808219a53e62c1a175e55625711656",
+        "sha256_in_prefix": "80f4251d21ece01880df21197dea460ddc66f3c25479ae30944eb4b30d21616d",
         "size_in_bytes": 777
       },
       {
@@ -165,7 +165,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/yaml-cpp-split_1714510678659/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
         "sha256": "a76476f06ac6c4f62c01afecbc46c241495d0f56d50986c0efe98392a648dcf5",
-        "sha256_in_prefix": "607e3130e31872d11fa864fe3d4ae12c0406d6f4a5725d86cfb8a37d189e151b",
+        "sha256_in_prefix": "6913a77545496f85b196eeef19de7855d275275f2b3df04d18de294369b3c9d7",
         "size_in_bytes": 968
       }
     ],

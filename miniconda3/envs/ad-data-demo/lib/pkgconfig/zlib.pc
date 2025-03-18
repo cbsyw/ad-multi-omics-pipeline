@@ -1,8 +1,8 @@
-prefix=/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo
-exec_prefix=/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo
-libdir=/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib
-sharedlibdir=/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib
-includedir=/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/include
+prefix=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo
+exec_prefix=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo
+libdir=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib
+sharedlibdir=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib
+includedir=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/include
 
 Name: zlib
 Description: zlib compression library

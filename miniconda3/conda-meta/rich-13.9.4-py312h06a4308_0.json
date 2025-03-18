@@ -11,7 +11,7 @@
     "pygments >=2.13.0,<3.0.0",
     "python >=3.12,<3.13.0a0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/rich-13.9.4-py312h06a4308_0",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/rich-13.9.4-py312h06a4308_0",
   "files": [
     "lib/python3.12/site-packages/rich-13.9.4.dist-info/INSTALLER",
     "lib/python3.12/site-packages/rich-13.9.4.dist-info/LICENSE",
@@ -182,12 +182,12 @@
   "license": "MIT",
   "license_family": "MIT",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/rich-13.9.4-py312h06a4308_0",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/rich-13.9.4-py312h06a4308_0",
     "type": 1
   },
   "md5": "91e0ceb4a0b7895f4d07a7cc4c3c7ea8",
   "name": "rich",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/rich-13.9.4-py312h06a4308_0.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/rich-13.9.4-py312h06a4308_0.conda",
   "paths_data": {
     "paths": [],
     "paths_version": 1

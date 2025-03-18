@@ -8,7 +8,7 @@ CFLAGS =
 CXXFLAGS = 
 # DEFS only contains those UCONFIG_CPPFLAGS which are not auto-set by platform.h
 DEFS = 
-prefix = /home/ubuntu/sage-bio/miniconda3
+prefix = /home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3
 exec_prefix = ${prefix}
 #bindir = ${exec_prefix}/bin
 libdir = ${exec_prefix}/lib

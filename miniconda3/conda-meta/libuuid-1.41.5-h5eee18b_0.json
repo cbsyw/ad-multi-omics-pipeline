@@ -7,7 +7,7 @@
   "depends": [
     "libgcc-ng >=11.2.0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/libuuid-1.41.5-h5eee18b_0",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/libuuid-1.41.5-h5eee18b_0",
   "files": [
     "include/uuid/uuid.h",
     "lib/libuuid.a",
@@ -20,12 +20,12 @@
   "license": "BSD-3-Clause",
   "license_family": "BSD",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/libuuid-1.41.5-h5eee18b_0",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/libuuid-1.41.5-h5eee18b_0",
     "type": 1
   },
   "md5": "4a6a2354414c9080327274aa514e5299",
   "name": "libuuid",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/libuuid-1.41.5-h5eee18b_0.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/libuuid-1.41.5-h5eee18b_0.conda",
   "paths_data": {
     "paths": [
       {
@@ -34,7 +34,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/libuuid_1668082679328/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
         "sha256": "ad771b4cb15ca6fcc526199ebbc1c4ff31e1cf96f01fb4710b14462327ebbef1",
-        "sha256_in_prefix": "6d7885620d02c39dc40ed99ad7986e70349bf888d1405e77e63bdefda08e5356",
+        "sha256_in_prefix": "63341ca975dbbfec8ab53a6b02b9c2a6cdde64c254cbc8e68af10432df758ab5",
         "size_in_bytes": 1208
       }
     ],

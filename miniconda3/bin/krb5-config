@@ -27,13 +27,13 @@
 # Configurable parameters set by autoconf
 version_string="Kerberos 5 release 1.20.1"
 
-prefix=/home/ubuntu/sage-bio/miniconda3
+prefix=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3
 exec_prefix=${prefix}
 includedir=${prefix}/include
 libdir=${exec_prefix}/lib
 CC_LINK='$(CC) $(PROG_LIBPATH) $(PROG_RPATH_FLAGS) $(CFLAGS) $(LDFLAGS)'
 KDB5_DB_LIB=
-LDFLAGS='-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/lib -Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/lib -L/home/ubuntu/sage-bio/miniconda3/lib -L/home/ubuntu/sage-bio/miniconda3/lib -Wl,--disable-new-dtags'
+LDFLAGS='-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -Wl,--disable-new-dtags'
 RPATH_FLAG='-Wl,--enable-new-dtags -Wl,-rpath -Wl,'
 PROG_RPATH_FLAGS='$(RPATH_FLAG)$(PROG_RPATH)'
 PTHREAD_CFLAGS='-pthread'

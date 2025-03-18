@@ -6,7 +6,7 @@
   "depends": [
     "_libgcc_mutex 0.1 main"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/libgomp-11.2.0-h1234567_1",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/libgomp-11.2.0-h1234567_1",
   "files": [
     "lib/libgomp.so",
     "lib/libgomp.so.1.0.0",
@@ -15,12 +15,12 @@
   "fn": "libgomp-11.2.0-h1234567_1.conda",
   "license": "GPL-3.0-only WITH GCC-exception-3.1",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/libgomp-11.2.0-h1234567_1",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/libgomp-11.2.0-h1234567_1",
     "type": 1
   },
   "md5": "b372c0eea9b60732fdae4b817a63c8cd",
   "name": "libgomp",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/libgomp-11.2.0-h1234567_1.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/libgomp-11.2.0-h1234567_1.conda",
   "paths_data": {
     "paths": [
       {

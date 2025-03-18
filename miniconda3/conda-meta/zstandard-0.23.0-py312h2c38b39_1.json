@@ -11,7 +11,7 @@
     "zstd >=1.5.6,<1.5.7.0a0",
     "zstd >=1.5.6,<1.6.0a0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/zstandard-0.23.0-py312h2c38b39_1",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/zstandard-0.23.0-py312h2c38b39_1",
   "files": [
     "lib/python3.12/site-packages/zstandard-0.23.0.dist-info/INSTALLER",
     "lib/python3.12/site-packages/zstandard-0.23.0.dist-info/LICENSE",
@@ -34,12 +34,12 @@
   "license": "BSD-3-Clause",
   "license_family": "BSD",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/zstandard-0.23.0-py312h2c38b39_1",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/zstandard-0.23.0-py312h2c38b39_1",
     "type": 1
   },
   "md5": "2cbafae57b8b4ec11666119d44ad4d71",
   "name": "zstandard",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/zstandard-0.23.0-py312h2c38b39_1.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/zstandard-0.23.0-py312h2c38b39_1.conda",
   "paths_data": {
     "paths": [],
     "paths_version": 1

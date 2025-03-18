@@ -1,7 +1,7 @@
-setenv CONDA_EXE "/home/ubuntu/sage-bio/miniconda3/bin/conda"
-setenv _CONDA_ROOT "/home/ubuntu/sage-bio/miniconda3"
-setenv _CONDA_EXE "/home/ubuntu/sage-bio/miniconda3/bin/conda"
-setenv CONDA_PYTHON_EXE "/home/ubuntu/sage-bio/miniconda3/bin/python"
+setenv CONDA_EXE "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/bin/conda"
+setenv _CONDA_ROOT "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3"
+setenv _CONDA_EXE "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/bin/conda"
+setenv CONDA_PYTHON_EXE "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/bin/python"
 # Copyright (C) 2012 Anaconda, Inc
 # SPDX-License-Identifier: BSD-3-Clause
 if (! $?_CONDA_EXE) then

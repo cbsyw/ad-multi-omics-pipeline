@@ -1,8 +1,8 @@
 # tk pkg-config source file
 
-prefix=/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo
-exec_prefix=/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo
-libdir=/home/ubuntu/sage-bio/miniconda3/envs/ad-data-demo/lib
+prefix=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo
+exec_prefix=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo
+libdir=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/envs/ad-data-demo/lib
 includedir=${prefix}/include
 
 Name: The Tk Toolkit

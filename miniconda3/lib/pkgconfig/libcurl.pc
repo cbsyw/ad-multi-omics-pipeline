@@ -22,7 +22,7 @@
 #
 ###########################################################################
 
-prefix=/home/ubuntu/sage-bio/miniconda3
+prefix=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
@@ -36,6 +36,6 @@ Version: 8.11.1
 Requires: 
 Requires.private: zlib,libzstd,mit-krb5-gssapi,openssl,libssh2,libnghttp2
 Libs: -L${libdir} -lcurl 
-Libs.private: -L/home/ubuntu/sage-bio/miniconda3/lib -L/home/ubuntu/sage-bio/miniconda3/lib -L/home/ubuntu/sage-bio/miniconda3/lib -L/home/ubuntu/sage-bio/miniconda3/lib -L/home/ubuntu/sage-bio/miniconda3/lib -lnghttp2 -lssh2 -lssh2 -lssl -lcrypto -lssl -lcrypto -L/home/ubuntu/sage-bio/miniconda3/lib -lgssapi_krb5 -lzstd -lzstd -lz -pthread
+Libs.private: -L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -lnghttp2 -lssh2 -lssh2 -lssl -lcrypto -lssl -lcrypto -L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib -lgssapi_krb5 -lzstd -lzstd -lz -pthread
 Cflags: -I${includedir} 
 Cflags.private: -DCURL_STATICLIB

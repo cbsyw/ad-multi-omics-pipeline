@@ -7,7 +7,7 @@
   "depends": [
     "python >=3.12,<3.13.0a0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/packaging-24.2-py312h06a4308_0",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/packaging-24.2-py312h06a4308_0",
   "files": [
     "lib/python3.12/site-packages/packaging-24.2.dist-info/INSTALLER",
     "lib/python3.12/site-packages/packaging-24.2.dist-info/LICENSE",
@@ -56,12 +56,12 @@
   "license": "Apache-2.0 or BSD-2-Clause",
   "license_family": "Apache",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/packaging-24.2-py312h06a4308_0",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/packaging-24.2-py312h06a4308_0",
     "type": 1
   },
   "md5": "cece1340aae4560340b6f061cd3bae2f",
   "name": "packaging",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/packaging-24.2-py312h06a4308_0.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/packaging-24.2-py312h06a4308_0.conda",
   "paths_data": {
     "paths": [],
     "paths_version": 1

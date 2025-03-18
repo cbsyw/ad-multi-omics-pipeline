@@ -7,7 +7,7 @@
   "depends": [
     "python >=3.12,<3.13.0a0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/certifi-2025.1.31-py312h06a4308_0",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/certifi-2025.1.31-py312h06a4308_0",
   "files": [
     "lib/python3.12/site-packages/certifi-2025.1.31.dist-info/INSTALLER",
     "lib/python3.12/site-packages/certifi-2025.1.31.dist-info/LICENSE",
@@ -30,12 +30,12 @@
   "license": "MPL-2.0",
   "license_family": "Other",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/certifi-2025.1.31-py312h06a4308_0",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/certifi-2025.1.31-py312h06a4308_0",
     "type": 1
   },
   "md5": "a888c8f598b6b836598b01f437c8ffa5",
   "name": "certifi",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/certifi-2025.1.31-py312h06a4308_0.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/certifi-2025.1.31-py312h06a4308_0.conda",
   "paths_data": {
     "paths": [],
     "paths_version": 1

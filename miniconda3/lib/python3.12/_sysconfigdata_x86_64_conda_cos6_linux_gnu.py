@@ -13,20 +13,20 @@ build_time_vars = {'ABIFLAGS': '',
  'BASECFLAGS': '-fno-strict-overflow -Wsign-compare',
  'BASECPPFLAGS': '-IObjects -IInclude -IPython',
  'BASEMODLIBS': '',
- 'BINDIR': '/home/ubuntu/sage-bio/miniconda3/bin',
- 'BINLIBDEST': '/home/ubuntu/sage-bio/miniconda3/lib/python3.12',
+ 'BINDIR': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/bin',
+ 'BINLIBDEST': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib/python3.12',
  'BLDLIBRARY': 'libpython3.12.a',
  'BLDSHARED': 'x86_64-conda_cos6-linux-gnu-gcc -pthread -shared -Wl,-O2 '
               '-Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now '
               '-Wl,--disable-new-dtags -Wl,--gc-sections '
-              '-Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/lib '
-              '-Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/lib '
-              '-L/home/ubuntu/sage-bio/miniconda3/lib '
+              '-Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
+              '-Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
+              '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
               '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
               '-Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections '
-              '-Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/lib '
-              '-Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/lib '
-              '-L/home/ubuntu/sage-bio/miniconda3/lib',
+              '-Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
+              '-Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
+              '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib',
  'BOOTSTRAP_HEADERS': '\\',
  'BUILDEXE': '',
  'BUILDPYTHON': 'python',
@@ -39,14 +39,14 @@ build_time_vars = {'ABIFLAGS': '',
            '-march=nocona -mtune=haswell -ftree-vectorize -fPIC '
            '-fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe '
            '-isystem '
-           '/home/ubuntu/sage-bio/miniconda3/include '
+           '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
            ' '
            ' '
            '    '
            '-march=nocona -mtune=haswell -ftree-vectorize -fPIC '
            '-fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe '
            '-isystem '
-           '/home/ubuntu/sage-bio/miniconda3/include '
+           '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
            ' '
            ' '
            '   ',
@@ -60,7 +60,7 @@ build_time_vars = {'ABIFLAGS': '',
  'CONFIGURE_CFLAGS': '-march=nocona -mtune=haswell -ftree-vectorize -fPIC '
                      '-fstack-protector-strong -fno-plt -O2 '
                      '-ffunction-sections -pipe -isystem '
-                     '/home/ubuntu/sage-bio/miniconda3/include '
+                     '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
                      ' '
                      ' '
                      '  '
@@ -74,53 +74,53 @@ build_time_vars = {'ABIFLAGS': '',
                             '-Werror=implicit-function-declaration '
                             '-fvisibility=hidden',
  'CONFIGURE_CPPFLAGS': '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-                       '/home/ubuntu/sage-bio/miniconda3/include '
-                       '-I/home/ubuntu/sage-bio/miniconda3/include',
+                       '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
+                       '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include',
  'CONFIGURE_LDFLAGS': '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
                       '-Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections '
-                      '-Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/lib '
-                      '-Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/lib '
-                      '-L/home/ubuntu/sage-bio/miniconda3/lib',
+                      '-Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
+                      '-Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
+                      '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib',
  'CONFIGURE_LDFLAGS_NODIST': '-fno-semantic-interposition  '
                              '  '
                              ' -g',
  'CONFIGURE_LDFLAGS_NOLTO': '-fno-lto',
- 'CONFIG_ARGS': "'--prefix=/home/ubuntu/sage-bio/miniconda3' "
+ 'CONFIG_ARGS': "'--prefix=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3' "
                 "'--build=x86_64-conda_cos6-linux-gnu' "
                 "'--host=x86_64-conda_cos6-linux-gnu' '--enable-ipv6' "
                 "'--with-ensurepip=no' "
-                "'--with-tzpath=/home/ubuntu/sage-bio/miniconda3/share/zoneinfo:/home/ubuntu/sage-bio/miniconda3/share/tzinfo' "
+                "'--with-tzpath=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/share/zoneinfo:/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/share/tzinfo' "
                 "'--with-computed-gotos' '--with-system-expat' "
                 "'--enable-loadable-sqlite-extensions' "
-                "'--with-tcltk-includes=-I/home/ubuntu/sage-bio/miniconda3/include' "
-                "'--with-tcltk-libs=-L/home/ubuntu/sage-bio/miniconda3/lib "
+                "'--with-tcltk-includes=-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include' "
+                "'--with-tcltk-libs=-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib "
                 "-ltcl8.6 -ltk8.6' '--with-platlibdir=lib' '--with-lto=full' "
                 "'--enable-optimizations' "
                 "'-oldincludedir=/croot/python-split_1738867532706/_build_env/x86_64-conda_cos6-linux-gnu/sysroot/usr/include' "
                 "'--disable-shared' 'PROFILE_TASK=-m test --pgo' "
                 "'build_alias=x86_64-conda_cos6-linux-gnu' "
                 "'host_alias=x86_64-conda_cos6-linux-gnu' "
-                "'PKG_CONFIG_PATH=/home/ubuntu/sage-bio/miniconda3/lib/pkgconfig' "
+                "'PKG_CONFIG_PATH=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib/pkgconfig' "
                 "'MACHDEP=linux' 'CC=x86_64-conda_cos6-linux-gnu-gcc' "
                 "'CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC "
                 '-fstack-protector-strong -fno-plt -O2 -ffunction-sections '
                 '-pipe -isystem '
-                '/home/ubuntu/sage-bio/miniconda3/include '
+                '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
                 ' '
                 ' '
                 '   '
                 "' 'LDFLAGS=-Wl,-O2 -Wl,--sort-common -Wl,--as-needed "
                 '-Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags '
                 '-Wl,--gc-sections '
-                '-Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/lib '
-                '-Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/lib '
-                "-L/home/ubuntu/sage-bio/miniconda3/lib' "
+                '-Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
+                '-Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
+                "-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib' "
                 "'CPPFLAGS=-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem "
-                '/home/ubuntu/sage-bio/miniconda3/include '
-                "-I/home/ubuntu/sage-bio/miniconda3/include' "
+                '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
+                "-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include' "
                 "'CPP=/croot/python-split_1738867532706/_build_env/bin/x86_64-conda_cos6-linux-gnu-cpp'",
- 'CONFINCLUDEDIR': '/home/ubuntu/sage-bio/miniconda3/include',
- 'CONFINCLUDEPY': '/home/ubuntu/sage-bio/miniconda3/include/python3.12',
+ 'CONFINCLUDEDIR': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include',
+ 'CONFINCLUDEPY': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include/python3.12',
  'COREPYTHONPATH': '',
  'COVERAGE_INFO': '/croot/python-split_1738867532706/work/build-static/coverage.info',
  'COVERAGE_LCOV_OPTIONS': '--rc lcov_branch_coverage=1',
@@ -131,11 +131,11 @@ build_time_vars = {'ABIFLAGS': '',
  'CPPFLAGS': '-IObjects -IInclude -IPython -I. '
              '-I/croot/python-split_1738867532706/work/Include -DNDEBUG '
              '-D_FORTIFY_SOURCE=2 -O2 -isystem '
-             '/home/ubuntu/sage-bio/miniconda3/include '
-             '-I/home/ubuntu/sage-bio/miniconda3/include '
+             '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
+             '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
              '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-             '/home/ubuntu/sage-bio/miniconda3/include '
-             '-I/home/ubuntu/sage-bio/miniconda3/include',
+             '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
+             '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include',
  'CXX': 'x86_64-conda_cos6-linux-gnu-c++ -pthread',
  'DEEPFREEZE_C': 'Python/deepfreeze/deepfreeze.c',
  'DEEPFREEZE_DEPS': '/croot/python-split_1738867532706/work/Tools/build/deepfreeze.py '
@@ -143,13 +143,13 @@ build_time_vars = {'ABIFLAGS': '',
                     '/croot/python-split_1738867532706/work/Programs/_freeze_module.py '
                     '\\',
  'DEEPFREEZE_OBJS': 'Python/deepfreeze/deepfreeze.o',
- 'DESTDIRS': '/home/ubuntu/sage-bio/miniconda3 '
-             '/home/ubuntu/sage-bio/miniconda3/lib '
-             '/home/ubuntu/sage-bio/miniconda3/lib/python3.12 '
-             '/home/ubuntu/sage-bio/miniconda3/lib/python3.12/lib-dynload',
- 'DESTLIB': '/home/ubuntu/sage-bio/miniconda3/lib/python3.12',
+ 'DESTDIRS': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3 '
+             '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
+             '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib/python3.12 '
+             '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib/python3.12/lib-dynload',
+ 'DESTLIB': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib/python3.12',
  'DESTPATH': '',
- 'DESTSHARED': '/home/ubuntu/sage-bio/miniconda3/lib/python3.12/lib-dynload',
+ 'DESTSHARED': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib/python3.12/lib-dynload',
  'DFLAGS': '',
  'DIRMODE': 755,
  'DIST': 'README.rst ChangeLog configure configure.ac acconfig.h pyconfig.h.in '
@@ -173,7 +173,7 @@ build_time_vars = {'ABIFLAGS': '',
  'ENSUREPIP': 'no',
  'EXE': '',
  'EXEMODE': 755,
- 'EXENAME': '/home/ubuntu/sage-bio/miniconda3/bin/python3.12',
+ 'EXENAME': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/bin/python3.12',
  'EXPORTSFROM': '',
  'EXPORTSYMS': '',
  'EXTRATESTOPTS': '',
@@ -683,12 +683,12 @@ build_time_vars = {'ABIFLAGS': '',
  'HAVE__GETPTY': 0,
  'HOSTRUNNER': '',
  'HOST_GNU_TYPE': 'x86_64-conda_cos6-linux-gnu',
- 'INCLDIRSTOMAKE': '/home/ubuntu/sage-bio/miniconda3/include '
-                   '/home/ubuntu/sage-bio/miniconda3/include '
-                   '/home/ubuntu/sage-bio/miniconda3/include/python3.12 '
-                   '/home/ubuntu/sage-bio/miniconda3/include/python3.12',
- 'INCLUDEDIR': '/home/ubuntu/sage-bio/miniconda3/include',
- 'INCLUDEPY': '/home/ubuntu/sage-bio/miniconda3/include/python3.12',
+ 'INCLDIRSTOMAKE': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
+                   '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
+                   '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include/python3.12 '
+                   '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include/python3.12',
+ 'INCLUDEDIR': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include',
+ 'INCLUDEPY': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include/python3.12',
  'INSTALL': '/usr/bin/install -c',
  'INSTALL_DATA': '/usr/bin/install -c -m 644',
  'INSTALL_PROGRAM': '/usr/bin/install -c',
@@ -700,54 +700,54 @@ build_time_vars = {'ABIFLAGS': '',
  'LDCXXSHARED': 'x86_64-conda_cos6-linux-gnu-c++ -pthread -shared -Wl,-O2 '
                 '-Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now '
                 '-Wl,--disable-new-dtags -Wl,--gc-sections '
-                '-Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/lib '
-                '-Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/lib '
-                '-L/home/ubuntu/sage-bio/miniconda3/lib '
+                '-Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
+                '-Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
+                '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
                 '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
                 '-Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections '
-                '-Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/lib '
-                '-Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/lib '
-                '-L/home/ubuntu/sage-bio/miniconda3/lib',
+                '-Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
+                '-Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
+                '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib',
  'LDFLAGS': '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now '
             '-Wl,--disable-new-dtags -Wl,--gc-sections '
-            '-Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/lib '
-            '-Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/lib '
-            '-L/home/ubuntu/sage-bio/miniconda3/lib '
+            '-Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
+            '-Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
+            '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
             '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now '
             '-Wl,--disable-new-dtags -Wl,--gc-sections '
-            '-Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/lib '
-            '-Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/lib '
-            '-L/home/ubuntu/sage-bio/miniconda3/lib',
+            '-Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
+            '-Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
+            '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib',
  'LDLIBRARY': 'libpython3.12.a',
  'LDLIBRARYDIR': '',
  'LDSHARED': 'x86_64-conda_cos6-linux-gnu-gcc -pthread -shared -Wl,-O2 '
              '-Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now '
              '-Wl,--disable-new-dtags -Wl,--gc-sections '
-             '-Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/lib '
-             '-Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/lib '
-             '-L/home/ubuntu/sage-bio/miniconda3/lib '
+             '-Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
+             '-Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
+             '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
              '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
              '-Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections '
-             '-Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/lib '
-             '-Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/lib '
-             '-L/home/ubuntu/sage-bio/miniconda3/lib',
+             '-Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
+             '-Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
+             '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib',
  'LDVERSION': '3.12',
  'LIBC': '',
- 'LIBDEST': '/home/ubuntu/sage-bio/miniconda3/lib/python3.12',
- 'LIBDIR': '/home/ubuntu/sage-bio/miniconda3/lib',
+ 'LIBDEST': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib/python3.12',
+ 'LIBDIR': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib',
  'LIBEXPAT_A': 'Modules/expat/libexpat.a',
  'LIBEXPAT_CFLAGS': '-fno-strict-overflow -Wsign-compare -DNDEBUG -O2 -Wall '
                     '-march=nocona -mtune=haswell -ftree-vectorize -fPIC '
                     '-fstack-protector-strong -fno-plt -O2 -ffunction-sections '
                     '-pipe -isystem '
-                    '/home/ubuntu/sage-bio/miniconda3/include '
+                    '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
                     ' '
                     ' '
                     '  '
                     '  -march=nocona -mtune=haswell '
                     '-ftree-vectorize -fPIC -fstack-protector-strong -fno-plt '
                     '-O2 -ffunction-sections -pipe -isystem '
-                    '/home/ubuntu/sage-bio/miniconda3/include '
+                    '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
                     ' '
                     ' '
                     '  '
@@ -761,11 +761,11 @@ build_time_vars = {'ABIFLAGS': '',
                     '-IObjects -IInclude -IPython -I. '
                     '-I/croot/python-split_1738867532706/work/Include -DNDEBUG '
                     '-D_FORTIFY_SOURCE=2 -O2 -isystem '
-                    '/home/ubuntu/sage-bio/miniconda3/include '
-                    '-I/home/ubuntu/sage-bio/miniconda3/include '
+                    '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
+                    '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
                     '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-                    '/home/ubuntu/sage-bio/miniconda3/include '
-                    '-I/home/ubuntu/sage-bio/miniconda3/include '
+                    '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
+                    '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
                     '-fPIC',
  'LIBEXPAT_HEADERS': '\\',
  'LIBEXPAT_OBJS': '\\',
@@ -775,14 +775,14 @@ build_time_vars = {'ABIFLAGS': '',
                    '-mtune=haswell -ftree-vectorize -fPIC '
                    '-fstack-protector-strong -fno-plt -O2 -ffunction-sections '
                    '-pipe -isystem '
-                   '/home/ubuntu/sage-bio/miniconda3/include '
+                   '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
                    ' '
                    ' '
                    '   '
                    ' -march=nocona -mtune=haswell -ftree-vectorize -fPIC '
                    '-fstack-protector-strong -fno-plt -O2 -ffunction-sections '
                    '-pipe -isystem '
-                   '/home/ubuntu/sage-bio/miniconda3/include '
+                   '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
                    ' '
                    ' '
                    '   '
@@ -796,11 +796,11 @@ build_time_vars = {'ABIFLAGS': '',
                    '-IObjects -IInclude -IPython -I. '
                    '-I/croot/python-split_1738867532706/work/Include -DNDEBUG '
                    '-D_FORTIFY_SOURCE=2 -O2 -isystem '
-                   '/home/ubuntu/sage-bio/miniconda3/include '
-                   '-I/home/ubuntu/sage-bio/miniconda3/include '
+                   '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
+                   '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
                    '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-                   '/home/ubuntu/sage-bio/miniconda3/include '
-                   '-I/home/ubuntu/sage-bio/miniconda3/include '
+                   '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
+                   '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
                    '-fPIC',
  'LIBHACL_HEADERS': '\\',
  'LIBHACL_SHA2_A': 'Modules/_hacl/libHacl_Hash_SHA2.a',
@@ -814,14 +814,14 @@ build_time_vars = {'ABIFLAGS': '',
                     '-march=nocona -mtune=haswell -ftree-vectorize -fPIC '
                     '-fstack-protector-strong -fno-plt -O2 -ffunction-sections '
                     '-pipe -isystem '
-                    '/home/ubuntu/sage-bio/miniconda3/include '
+                    '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
                     ' '
                     ' '
                     '  '
                     '  -march=nocona -mtune=haswell '
                     '-ftree-vectorize -fPIC -fstack-protector-strong -fno-plt '
                     '-O2 -ffunction-sections -pipe -isystem '
-                    '/home/ubuntu/sage-bio/miniconda3/include '
+                    '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
                     ' '
                     ' '
                     '  '
@@ -835,18 +835,18 @@ build_time_vars = {'ABIFLAGS': '',
                     '-IObjects -IInclude -IPython -I. '
                     '-I/croot/python-split_1738867532706/work/Include -DNDEBUG '
                     '-D_FORTIFY_SOURCE=2 -O2 -isystem '
-                    '/home/ubuntu/sage-bio/miniconda3/include '
-                    '-I/home/ubuntu/sage-bio/miniconda3/include '
+                    '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
+                    '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
                     '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-                    '/home/ubuntu/sage-bio/miniconda3/include '
-                    '-I/home/ubuntu/sage-bio/miniconda3/include '
+                    '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
+                    '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
                     '-fPIC',
  'LIBMPDEC_HEADERS': '\\',
  'LIBMPDEC_OBJS': '\\',
  'LIBOBJDIR': 'Python/',
  'LIBOBJS': '',
- 'LIBPC': '/home/ubuntu/sage-bio/miniconda3/lib/pkgconfig',
- 'LIBPL': '/home/ubuntu/sage-bio/miniconda3/lib/python3.12/config-3.12-x86_64-linux-gnu',
+ 'LIBPC': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib/pkgconfig',
+ 'LIBPL': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib/python3.12/config-3.12-x86_64-linux-gnu',
  'LIBPYTHON': '',
  'LIBRARY': 'libpython3.12.a',
  'LIBRARY_DEPS': 'libpython3.12.a',
@@ -867,12 +867,12 @@ build_time_vars = {'ABIFLAGS': '',
  'LOCALMODLIBS': '',
  'MACHDEP': 'linux',
  'MACHDEP_OBJS': '',
- 'MACHDESTLIB': '/home/ubuntu/sage-bio/miniconda3/lib/python3.12',
+ 'MACHDESTLIB': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib/python3.12',
  'MACOSX_DEPLOYMENT_TARGET': '',
  'MAJOR_IN_MKDEV': 0,
  'MAJOR_IN_SYSMACROS': 1,
  'MAKESETUP': '/croot/python-split_1738867532706/work/Modules/makesetup',
- 'MANDIR': '/home/ubuntu/sage-bio/miniconda3/share/man',
+ 'MANDIR': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/share/man',
  'MKDIR_P': '/usr/bin/mkdir -p',
  'MODBUILT_NAMES': 'array  _asyncio  _bisect  _contextvars  _csv  _heapq  '
                    '_json  _lsprof  _opcode  _pickle  _queue  _random  '
@@ -928,8 +928,8 @@ build_time_vars = {'ABIFLAGS': '',
  'MODULE_AUDIOOP_LDFLAGS': '-lm',
  'MODULE_AUDIOOP_STATE': 'yes',
  'MODULE_BINASCII_CFLAGS': '-DUSE_ZLIB_CRC32 '
-                           '-I/home/ubuntu/sage-bio/miniconda3/include',
- 'MODULE_BINASCII_LDFLAGS': '-L/home/ubuntu/sage-bio/miniconda3/lib '
+                           '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include',
+ 'MODULE_BINASCII_LDFLAGS': '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
                             '-lz',
  'MODULE_BINASCII_STATE': 'yes',
  'MODULE_CMATH_DEPS': '/croot/python-split_1738867532706/work/Modules/_math.h',
@@ -976,8 +976,8 @@ build_time_vars = {'ABIFLAGS': '',
  'MODULE_XXLIMITED_35_STATE': 'yes',
  'MODULE_XXLIMITED_STATE': 'yes',
  'MODULE_XXSUBTYPE_STATE': 'yes',
- 'MODULE_ZLIB_CFLAGS': '-I/home/ubuntu/sage-bio/miniconda3/include',
- 'MODULE_ZLIB_LDFLAGS': '-L/home/ubuntu/sage-bio/miniconda3/lib '
+ 'MODULE_ZLIB_CFLAGS': '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include',
+ 'MODULE_ZLIB_LDFLAGS': '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
                         '-lz',
  'MODULE_ZLIB_STATE': 'yes',
  'MODULE__ABC_LDFLAGS': '',
@@ -1042,43 +1042,43 @@ build_time_vars = {'ABIFLAGS': '',
  'MODULE__CRYPT_STATE': 'yes',
  'MODULE__CSV_STATE': 'yes',
  'MODULE__CTYPES_CFLAGS': '-fno-strict-overflow '
-                          '-I/home/ubuntu/sage-bio/miniconda3/include',
+                          '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include',
  'MODULE__CTYPES_DEPS': '/croot/python-split_1738867532706/work/Modules/_ctypes/ctypes.h',
- 'MODULE__CTYPES_LDFLAGS': '-L/home/ubuntu/sage-bio/miniconda3/lib '
+ 'MODULE__CTYPES_LDFLAGS': '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
                            '-lffi -ldl',
  'MODULE__CTYPES_MALLOC_CLOSURE': '',
  'MODULE__CTYPES_STATE': 'yes',
  'MODULE__CTYPES_TEST_LDFLAGS': '-lm',
  'MODULE__CTYPES_TEST_STATE': 'yes',
  'MODULE__CURSES_CFLAGS': '-D_GNU_SOURCE -DNCURSES_WIDECHAR '
-                          '-I/home/ubuntu/sage-bio/miniconda3/include/ncursesw '
-                          '-I/home/ubuntu/sage-bio/miniconda3/include',
- 'MODULE__CURSES_LDFLAGS': '-L/home/ubuntu/sage-bio/miniconda3/lib '
+                          '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include/ncursesw '
+                          '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include',
+ 'MODULE__CURSES_LDFLAGS': '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
                            '-Wl,-O2 -Wl,--sort-common -Wl,--disable-new-dtags '
                            '-Wl,--gc-sections '
-                           '-Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/lib '
-                           '-Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/lib '
+                           '-Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
+                           '-Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
                            '-lncursesw -ltinfow',
  'MODULE__CURSES_PANEL_CFLAGS': '-D_GNU_SOURCE -DNCURSES_WIDECHAR '
                                 '-D_GNU_SOURCE -DNCURSES_WIDECHAR '
-                                '-I/home/ubuntu/sage-bio/miniconda3/include/ncursesw '
-                                '-I/home/ubuntu/sage-bio/miniconda3/include '
-                                '-I/home/ubuntu/sage-bio/miniconda3/include/ncursesw '
-                                '-I/home/ubuntu/sage-bio/miniconda3/include '
+                                '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include/ncursesw '
+                                '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
+                                '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include/ncursesw '
+                                '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
                                 '-D_GNU_SOURCE -DNCURSES_WIDECHAR '
-                                '-I/home/ubuntu/sage-bio/miniconda3/include/ncursesw '
-                                '-I/home/ubuntu/sage-bio/miniconda3/include',
- 'MODULE__CURSES_PANEL_LDFLAGS': '-L/home/ubuntu/sage-bio/miniconda3/lib '
+                                '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include/ncursesw '
+                                '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include',
+ 'MODULE__CURSES_PANEL_LDFLAGS': '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
                                  '-Wl,-O2 -Wl,--sort-common '
                                  '-Wl,--disable-new-dtags -Wl,--gc-sections '
-                                 '-Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/lib '
-                                 '-Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/lib '
+                                 '-Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
+                                 '-Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
                                  '-lpanelw '
-                                 '-L/home/ubuntu/sage-bio/miniconda3/lib '
+                                 '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
                                  '-Wl,-O2 -Wl,--sort-common '
                                  '-Wl,--disable-new-dtags -Wl,--gc-sections '
-                                 '-Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/lib '
-                                 '-Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/lib '
+                                 '-Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
+                                 '-Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
                                  '-lncursesw -ltinfow',
  'MODULE__CURSES_PANEL_STATE': 'yes',
  'MODULE__CURSES_STATE': 'yes',
@@ -1096,9 +1096,9 @@ build_time_vars = {'ABIFLAGS': '',
  'MODULE__ELEMENTTREE_STATE': 'yes',
  'MODULE__FUNCTOOLS_LDFLAGS': '',
  'MODULE__GDBM_STATE': 'missing',
- 'MODULE__HASHLIB_CFLAGS': '-I/home/ubuntu/sage-bio/miniconda3/include',
+ 'MODULE__HASHLIB_CFLAGS': '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include',
  'MODULE__HASHLIB_DEPS': '/croot/python-split_1738867532706/work/Modules/hashlib.h',
- 'MODULE__HASHLIB_LDFLAGS': '-L/home/ubuntu/sage-bio/miniconda3/lib   '
+ 'MODULE__HASHLIB_LDFLAGS': '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib   '
                             '-lcrypto',
  'MODULE__HASHLIB_STATE': 'yes',
  'MODULE__HEAPQ_STATE': 'yes',
@@ -1109,8 +1109,8 @@ build_time_vars = {'ABIFLAGS': '',
  'MODULE__JSON_STATE': 'yes',
  'MODULE__LOCALE_LDFLAGS': '',
  'MODULE__LSPROF_STATE': 'yes',
- 'MODULE__LZMA_CFLAGS': '-I/home/ubuntu/sage-bio/miniconda3/include',
- 'MODULE__LZMA_LDFLAGS': '-L/home/ubuntu/sage-bio/miniconda3/lib '
+ 'MODULE__LZMA_CFLAGS': '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include',
+ 'MODULE__LZMA_LDFLAGS': '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
                          '-llzma',
  'MODULE__LZMA_STATE': 'yes',
  'MODULE__MD5_CFLAGS': '-I/croot/python-split_1738867532706/work/Modules/_hacl/include '
@@ -1157,7 +1157,7 @@ build_time_vars = {'ABIFLAGS': '',
                         '/croot/python-split_1738867532706/work/Modules/getaddrinfo.c '
                         '/croot/python-split_1738867532706/work/Modules/getnameinfo.c',
  'MODULE__SOCKET_STATE': 'yes',
- 'MODULE__SQLITE3_CFLAGS': '-I/home/ubuntu/sage-bio/miniconda3/include '
+ 'MODULE__SQLITE3_CFLAGS': '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
                            '-I/croot/python-split_1738867532706/work/Modules/_sqlite',
  'MODULE__SQLITE3_DEPS': '/croot/python-split_1738867532706/work/Modules/_sqlite/connection.h '
                          '/croot/python-split_1738867532706/work/Modules/_sqlite/cursor.h '
@@ -1166,11 +1166,11 @@ build_time_vars = {'ABIFLAGS': '',
                          '/croot/python-split_1738867532706/work/Modules/_sqlite/prepare_protocol.h '
                          '/croot/python-split_1738867532706/work/Modules/_sqlite/row.h '
                          '/croot/python-split_1738867532706/work/Modules/_sqlite/util.h',
- 'MODULE__SQLITE3_LDFLAGS': '-L/home/ubuntu/sage-bio/miniconda3/lib '
+ 'MODULE__SQLITE3_LDFLAGS': '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
                             '-lsqlite3',
  'MODULE__SQLITE3_STATE': 'yes',
  'MODULE__SRE_LDFLAGS': '',
- 'MODULE__SSL_CFLAGS': '-I/home/ubuntu/sage-bio/miniconda3/include',
+ 'MODULE__SSL_CFLAGS': '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include',
  'MODULE__SSL_DEPS': '/croot/python-split_1738867532706/work/Modules/_ssl.h '
                      '/croot/python-split_1738867532706/work/Modules/_ssl/cert.c '
                      '/croot/python-split_1738867532706/work/Modules/_ssl/debughelpers.c '
@@ -1179,7 +1179,7 @@ build_time_vars = {'ABIFLAGS': '',
                      '/croot/python-split_1738867532706/work/Modules/_ssl_data_111.h '
                      '/croot/python-split_1738867532706/work/Modules/_ssl_data_300.h '
                      '/croot/python-split_1738867532706/work/Modules/socketmodule.h',
- 'MODULE__SSL_LDFLAGS': '-L/home/ubuntu/sage-bio/miniconda3/lib  '
+ 'MODULE__SSL_LDFLAGS': '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib  '
                         '-lssl -lcrypto',
  'MODULE__SSL_STATE': 'yes',
  'MODULE__STATISTICS_LDFLAGS': '-lm',
@@ -1197,16 +1197,16 @@ build_time_vars = {'ABIFLAGS': '',
  'MODULE__TESTINTERNALCAPI_STATE': 'yes',
  'MODULE__TESTMULTIPHASE_STATE': 'yes',
  'MODULE__THREAD_LDFLAGS': '',
- 'MODULE__TKINTER_CFLAGS': '-I/home/ubuntu/sage-bio/miniconda3/include '
+ 'MODULE__TKINTER_CFLAGS': '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
                            '-Wno-strict-prototypes -DWITH_APPINIT=1',
- 'MODULE__TKINTER_LDFLAGS': '-L/home/ubuntu/sage-bio/miniconda3/lib '
+ 'MODULE__TKINTER_LDFLAGS': '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
                             '-ltk8.6 -ltkstub8.6 -ltcl8.6 -ltclstub8.6',
  'MODULE__TKINTER_STATE': 'yes',
  'MODULE__TRACEMALLOC_LDFLAGS': '',
  'MODULE__TYPING_LDFLAGS': '',
  'MODULE__TYPING_STATE': 'yes',
- 'MODULE__UUID_CFLAGS': '-I/home/ubuntu/sage-bio/miniconda3/include/uuid',
- 'MODULE__UUID_LDFLAGS': '-L/home/ubuntu/sage-bio/miniconda3/lib '
+ 'MODULE__UUID_CFLAGS': '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include/uuid',
+ 'MODULE__UUID_LDFLAGS': '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
                          '-luuid',
  'MODULE__UUID_STATE': 'yes',
  'MODULE__WEAKREF_LDFLAGS': '',
@@ -1258,7 +1258,7 @@ build_time_vars = {'ABIFLAGS': '',
                              '-Wall -march=nocona -mtune=haswell '
                              '-ftree-vectorize -fPIC -fstack-protector-strong '
                              '-fno-plt -O2 -ffunction-sections -pipe -isystem '
-                             '/home/ubuntu/sage-bio/miniconda3/include '
+                             '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
                              ' '
                              ' '
                              '  '
@@ -1266,7 +1266,7 @@ build_time_vars = {'ABIFLAGS': '',
                              '-mtune=haswell -ftree-vectorize -fPIC '
                              '-fstack-protector-strong -fno-plt -O2 '
                              '-ffunction-sections -pipe -isystem '
-                             '/home/ubuntu/sage-bio/miniconda3/include '
+                             '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
                              ' '
                              ' '
                              '  '
@@ -1284,24 +1284,24 @@ build_time_vars = {'ABIFLAGS': '',
                              '-IObjects -IInclude -IPython -I. '
                              '-I/croot/python-split_1738867532706/work/Include '
                              '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-                             '/home/ubuntu/sage-bio/miniconda3/include '
-                             '-I/home/ubuntu/sage-bio/miniconda3/include '
+                             '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
+                             '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
                              '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-                             '/home/ubuntu/sage-bio/miniconda3/include '
-                             '-I/home/ubuntu/sage-bio/miniconda3/include '
+                             '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
+                             '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
                              '-DPy_BUILD_CORE_BUILTIN',
  'PY_CFLAGS': '-fno-strict-overflow -Wsign-compare -DNDEBUG -O2 -Wall '
               '-march=nocona -mtune=haswell -ftree-vectorize -fPIC '
               '-fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe '
               '-isystem '
-              '/home/ubuntu/sage-bio/miniconda3/include '
+              '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
               ' '
               ' '
               '   '
               ' -march=nocona -mtune=haswell -ftree-vectorize -fPIC '
               '-fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe '
               '-isystem '
-              '/home/ubuntu/sage-bio/miniconda3/include '
+              '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
               ' '
               ' '
               '   '
@@ -1318,14 +1318,14 @@ build_time_vars = {'ABIFLAGS': '',
                    '-march=nocona -mtune=haswell -ftree-vectorize -fPIC '
                    '-fstack-protector-strong -fno-plt -O2 -ffunction-sections '
                    '-pipe -isystem '
-                   '/home/ubuntu/sage-bio/miniconda3/include '
+                   '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
                    ' '
                    ' '
                    '   '
                    ' -march=nocona -mtune=haswell -ftree-vectorize -fPIC '
                    '-fstack-protector-strong -fno-plt -O2 -ffunction-sections '
                    '-pipe -isystem '
-                   '/home/ubuntu/sage-bio/miniconda3/include '
+                   '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
                    ' '
                    ' '
                    '   '
@@ -1339,56 +1339,56 @@ build_time_vars = {'ABIFLAGS': '',
                    '-IObjects -IInclude -IPython -I. '
                    '-I/croot/python-split_1738867532706/work/Include -DNDEBUG '
                    '-D_FORTIFY_SOURCE=2 -O2 -isystem '
-                   '/home/ubuntu/sage-bio/miniconda3/include '
-                   '-I/home/ubuntu/sage-bio/miniconda3/include '
+                   '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
+                   '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
                    '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-                   '/home/ubuntu/sage-bio/miniconda3/include '
-                   '-I/home/ubuntu/sage-bio/miniconda3/include '
+                   '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
+                   '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
                    '-DPy_BUILD_CORE',
  'PY_CORE_LDFLAGS': '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
                     '-Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections '
-                    '-Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/lib '
-                    '-Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/lib '
-                    '-L/home/ubuntu/sage-bio/miniconda3/lib '
+                    '-Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
+                    '-Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
+                    '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
                     '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
                     '-Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections '
-                    '-Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/lib '
-                    '-Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/lib '
-                    '-L/home/ubuntu/sage-bio/miniconda3/lib '
+                    '-Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
+                    '-Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
+                    '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
                     '-fno-semantic-interposition   '
                     '  -g',
  'PY_CPPFLAGS': '-IObjects -IInclude -IPython -I. '
                 '-I/croot/python-split_1738867532706/work/Include -DNDEBUG '
                 '-D_FORTIFY_SOURCE=2 -O2 -isystem '
-                '/home/ubuntu/sage-bio/miniconda3/include '
-                '-I/home/ubuntu/sage-bio/miniconda3/include '
+                '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
+                '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
                 '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-                '/home/ubuntu/sage-bio/miniconda3/include '
-                '-I/home/ubuntu/sage-bio/miniconda3/include',
+                '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
+                '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include',
  'PY_ENABLE_SHARED': 0,
  'PY_HAVE_PERF_TRAMPOLINE': 1,
  'PY_LDFLAGS': '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
                '-Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections '
-               '-Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/lib '
-               '-Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/lib '
-               '-L/home/ubuntu/sage-bio/miniconda3/lib '
+               '-Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
+               '-Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
+               '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
                '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
                '-Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections '
-               '-Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/lib '
-               '-Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/lib '
-               '-L/home/ubuntu/sage-bio/miniconda3/lib',
+               '-Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
+               '-Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
+               '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib',
  'PY_LDFLAGS_NODIST': '-fno-semantic-interposition   '
                       '  -g',
  'PY_LDFLAGS_NOLTO': '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
                      '-Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections '
-                     '-Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/lib '
-                     '-Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/lib '
-                     '-L/home/ubuntu/sage-bio/miniconda3/lib '
+                     '-Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
+                     '-Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
+                     '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
                      '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
                      '-Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections '
-                     '-Wl,-rpath,/home/ubuntu/sage-bio/miniconda3/lib '
-                     '-Wl,-rpath-link,/home/ubuntu/sage-bio/miniconda3/lib '
-                     '-L/home/ubuntu/sage-bio/miniconda3/lib '
+                     '-Wl,-rpath,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
+                     '-Wl,-rpath-link,/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
+                     '-L/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib '
                      '-fno-lto',
  'PY_SQLITE_ENABLE_LOAD_EXTENSION': 1,
  'PY_SQLITE_HAVE_SERIALIZE': 1,
@@ -1398,7 +1398,7 @@ build_time_vars = {'ABIFLAGS': '',
                         '-Wall -march=nocona -mtune=haswell -ftree-vectorize '
                         '-fPIC -fstack-protector-strong -fno-plt -O2 '
                         '-ffunction-sections -pipe -isystem '
-                        '/home/ubuntu/sage-bio/miniconda3/include '
+                        '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
                         ' '
                         ' '
                         '  '
@@ -1406,7 +1406,7 @@ build_time_vars = {'ABIFLAGS': '',
                         '-mtune=haswell -ftree-vectorize -fPIC '
                         '-fstack-protector-strong -fno-plt -O2 '
                         '-ffunction-sections -pipe -isystem '
-                        '/home/ubuntu/sage-bio/miniconda3/include '
+                        '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
                         ' '
                         ' '
                         '  '
@@ -1422,11 +1422,11 @@ build_time_vars = {'ABIFLAGS': '',
                         '-IObjects -IInclude -IPython -I. '
                         '-I/croot/python-split_1738867532706/work/Include '
                         '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-                        '/home/ubuntu/sage-bio/miniconda3/include '
-                        '-I/home/ubuntu/sage-bio/miniconda3/include '
+                        '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
+                        '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
                         '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-                        '/home/ubuntu/sage-bio/miniconda3/include '
-                        '-I/home/ubuntu/sage-bio/miniconda3/include',
+                        '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include '
+                        '-I/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include',
  'PY_SUPPORT_TIER': 1,
  'Py_DEBUG': 0,
  'Py_ENABLE_SHARED': 0,
@@ -1438,7 +1438,7 @@ build_time_vars = {'ABIFLAGS': '',
  'RESSRCDIR': 'Mac/Resources/framework',
  'RETSIGTYPE': 'void',
  'RUNSHARED': '',
- 'SCRIPTDIR': '/home/ubuntu/sage-bio/miniconda3/lib',
+ 'SCRIPTDIR': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib',
  'SCRIPT_2TO3': 'build/scripts-3.12/2to3-3.12',
  'SCRIPT_IDLE': 'build/scripts-3.12/idle3.12',
  'SCRIPT_PYDOC': 'build/scripts-3.12/pydoc3.12',
@@ -1571,15 +1571,15 @@ build_time_vars = {'ABIFLAGS': '',
  'THREAD_STACK_SIZE': 0,
  'TIMEMODULE_LIB': 0,
  'TM_IN_SYS_TIME': 0,
- 'TZPATH': '/home/ubuntu/sage-bio/miniconda3/share/zoneinfo:/home/ubuntu/sage-bio/miniconda3/share/tzinfo',
+ 'TZPATH': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/share/zoneinfo:/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/share/tzinfo',
  'UNICODE_DEPS': '\\',
  'UNIVERSALSDK': '',
  'UPDATE_FILE': '/croot/python-split_1738867532706/work/Tools/build/update_file.py',
  'USE_COMPUTED_GOTOS': 1,
  'VERSION': '3.12',
  'VPATH': '/croot/python-split_1738867532706/work',
- 'WASM_ASSETS_DIR': './home/ubuntu/sage-bio/miniconda3',
- 'WASM_STDLIB': './home/ubuntu/sage-bio/miniconda3/lib/python3.12/os.py',
+ 'WASM_ASSETS_DIR': './home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3',
+ 'WASM_STDLIB': './home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib/python3.12/os.py',
  'WHEEL_PKG_DIR': '',
  'WINDOW_HAS_FLAGS': 1,
  'WITH_DECIMAL_CONTEXTVAR': 1,
@@ -1596,7 +1596,7 @@ build_time_vars = {'ABIFLAGS': '',
  'XMLLIBSUBDIRS': 'xml xml/dom xml/etree xml/parsers xml/sax',
  'abs_builddir': '/croot/python-split_1738867532706/work/build-static',
  'abs_srcdir': '/croot/python-split_1738867532706/work',
- 'datarootdir': '/home/ubuntu/sage-bio/miniconda3/share',
- 'exec_prefix': '/home/ubuntu/sage-bio/miniconda3',
- 'prefix': '/home/ubuntu/sage-bio/miniconda3',
+ 'datarootdir': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/share',
+ 'exec_prefix': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3',
+ 'prefix': '/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3',
  'srcdir': '/croot/python-split_1738867532706/work'}

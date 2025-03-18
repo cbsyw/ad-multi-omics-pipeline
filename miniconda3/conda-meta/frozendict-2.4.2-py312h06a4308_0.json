@@ -7,7 +7,7 @@
   "depends": [
     "python >=3.12,<3.13.0a0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/frozendict-2.4.2-py312h06a4308_0",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/frozendict-2.4.2-py312h06a4308_0",
   "files": [
     "lib/python3.12/site-packages/frozendict-2.4.2.dist-info/INSTALLER",
     "lib/python3.12/site-packages/frozendict-2.4.2.dist-info/LICENSE.txt",
@@ -36,12 +36,12 @@
   "license": "LGPL-3.0-only",
   "license_family": "LGPL",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/frozendict-2.4.2-py312h06a4308_0",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/frozendict-2.4.2-py312h06a4308_0",
     "type": 1
   },
   "md5": "76ae0259102a2156cc0e1ff9ada0f2c6",
   "name": "frozendict",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/frozendict-2.4.2-py312h06a4308_0.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/frozendict-2.4.2-py312h06a4308_0.conda",
   "paths_data": {
     "paths": [],
     "paths_version": 1

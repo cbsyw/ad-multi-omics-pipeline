@@ -8,7 +8,7 @@
     "jsonpointer >=1.9",
     "python >=3.12,<3.13.0a0"
   ],
-  "extracted_package_dir": "/home/ubuntu/sage-bio/miniconda3/pkgs/jsonpatch-1.33-py312h06a4308_1",
+  "extracted_package_dir": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/jsonpatch-1.33-py312h06a4308_1",
   "files": [
     "bin/jsondiff",
     "bin/jsonpatch",
@@ -28,12 +28,12 @@
   "license": "BSD-3-Clause",
   "license_family": "BSD",
   "link": {
-    "source": "/home/ubuntu/sage-bio/miniconda3/pkgs/jsonpatch-1.33-py312h06a4308_1",
+    "source": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/jsonpatch-1.33-py312h06a4308_1",
     "type": 1
   },
   "md5": "c3de52aaf670064f85106ddb32d720d9",
   "name": "jsonpatch",
-  "package_tarball_full_path": "/home/ubuntu/sage-bio/miniconda3/pkgs/jsonpatch-1.33-py312h06a4308_1.conda",
+  "package_tarball_full_path": "/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/pkgs/jsonpatch-1.33-py312h06a4308_1.conda",
   "paths_data": {
     "paths": [
       {
@@ -42,7 +42,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/jsonpatch_1714483231291/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
         "sha256": "72f3c2fe656441b260e9dcd1ebc156f6dc23761b36c0e2b70d3a9a356b8878b5",
-        "sha256_in_prefix": "019429906ad8b9dfe88fe126a6796dd4da1c577836486b262c1dbf4fcaabe119",
+        "sha256_in_prefix": "a467fa3f6b858a426b255f9e8af79aa1040730ed3986bd00c971967dc4ca0885",
         "size_in_bytes": 1447
       },
       {
@@ -51,7 +51,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/jsonpatch_1714483231291/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
         "sha256": "411c7b0a353b6ba595cb670de8925d5a0269d253f135c3dfac761d379d25f420",
-        "sha256_in_prefix": "3a11d9053d79d4e55fc51923eb4b7987bb4f8eecd6cc3af00ff82c03c4e79856",
+        "sha256_in_prefix": "fdff0e20e294b5ea0ac65148b5f41a27532c1bbfe1217d09aeb79af1bc092a58",
         "size_in_bytes": 4108
       }
     ],
