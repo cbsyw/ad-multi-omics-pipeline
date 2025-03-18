@@ -26,7 +26,7 @@ class ClinicalDataIngestor(DataIngestionBase):
         super().__init__(data_path)
         self.file_format = file_format or self._infer_format(data_path)
         self.data = None
-        self.logger.info(f"Initialized clinical data ingestor with format: {self.flie_format}")
+        self.logger.info(f"Initialized clinical data ingestor with format: {self.file_format}")
 
     def _infer_format(self,data_path):
         extension = data_path.split('.')[-1].lower()
@@ -66,32 +66,32 @@ class ClinicalDataIngestor(DataIngestionBase):
             self.logger.error(f"error loading clinical data: {str(e)}")
             raise
 
-        def get_metadata(self):
-            if self.data is None:
-                self.load_data()
+    def get_metadata(self):
+        if self.data is None:
+            self.load_data()
 
 
-            metadata = {
-                    "data_type": "clinical",
-                    "file_format": self.file_format,
-                    "num_subjects": self.data.shape[0],
-                    "num_features": self.data.shape[1],
-                    "column_names": self.data.columns.tolist(),
-                    "data_types": {col: str(dtype_ for col, dtype in self.data.dtypes.items()},
-                    "missing_values": {col:int(self.data[col].isna().sum()) for col in self.data.columns},
-                    "processing_date": datetime.now().strftime("%Y-%m_5d %H:%M:%S")
-                }
+        metadata = {
+                "data_type": "clinical",
+                "file_format": self.file_format,
+                "num_subjects": self.data.shape[0],
+                "num_features": self.data.shape[1],
+                "column_names": self.data.columns.tolist(),
+                "data_types": {col: str(dtype) for col, dtype in self.data.dtypes.items()},
+                "missing_values": {col:int(self.data[col].isna().sum()) for col in self.data.columns},
+                "processing_date": datetime.now().strftime("%Y-%m_5d %H:%M:%S")
+            }
 
-            # check for id columns
+        # check for id columns
 
-            possible_id_cols = [col for col in self.data.columns if 'id' in col.lower() or 'subject' in col.lower()]
-            if possible_id_cols:
-                metadata["possible_id_columns"] = possible_id_cols
+        possible_id_cols = [col for col in self.data.columns if 'id' in col.lower() or 'subject' in col.lower()]
+        if possible_id_cols:
+            metadata["possible_id_columns"] = possible_id_cols
 
-            return metadata
-                    
+        return metadata
+                
 
 
-    
 
-    
+
+

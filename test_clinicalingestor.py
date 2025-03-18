@@ -1,60 +1,48 @@
 
-
 import sys
 import os
-import join
+import json
 
-# add src directory to python path
-
+# Add the src directory to the Python path
 sys.path.append(os.path.abspath('src'))
 
-from data_ingestion.clinical_ingestor import ClinicalDataIngestor
+from src.data_ingestion.base_ingestion import DataIngestionBase
+from src.data_ingestion.clinical_ingestor import ClinicalDataIngestor
 
 def main():
-    """ Test cdi with a sample file"""
+    """Test the clinical data ingestor with a sample file."""
+    # Path to the sample clinical data
+    data_path = 'data/raw/patient.csv'
 
-    # path to sample data 
-    data_path = "data/raw/sample_clinical.csv"
+    print(f"Testing clinical data ingestor with file: {data_path}")
 
-    print(f"test data ingestor with file: {data_path}")
-
-    # create instance of cdi
-
+    # Create an ingestor instance
     ingestor = ClinicalDataIngestor(data_path)
 
-    # load data
-
+    # Load the data
     data = ingestor.load_data()
 
-    # get meta
-
+    # Get metadata
     metadata = ingestor.get_metadata()
 
-    # print data shape and first rows
-
-    print("\n ---- data preview -----")
+    # Print data shape and first few rows
+    print("\n----- Data Preview -----")
     print(f"Shape: {data.shape}")
     print("\nFirst 3 rows:")
     print(data.head(3).to_string())
 
-    # print metadata in a readable format
-
-    print("\n ---- metadata preview -----")
+    # Print metadata in a readable format
+    print("\n----- Metadata -----")
     print(json.dumps(metadata, indent=2, default=str))
 
+    print("\n----- Basic Statistics -----")
+    print("Age statistics:")
+    print(f"  Mean age: {data['age'].mean():.1f}")
+    print(f"  Age range: {data['age'].min()} - {data['age'].max()}")
 
-    print("\n ---- basic statistics -----")
-    print("age statistics:")
-    print(f" Mean age: {data['age'].mean():1f}")
-    print(f" Age range: {data['age'].min()} - {data['age'].max()}")
-
-
-    print("\n diagnosis distribution:")
-    for diagnosis, count in data ['diagnosis'].value_counts().items():
-        print(f" {diagnosis}: {count} patients")
-
+    print("\nDiagnosis distribution:")
+    for diagnosis, count in data['diagnosis'].value_counts().items():
+        print(f"  {diagnosis}: {count} patients")
 
 if __name__ == "__main__":
     main()
-            
-    
