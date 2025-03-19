@@ -93,6 +93,56 @@ class DataValidator:
             return pd.api.types.is_string_dtype(actual) or pd.api.types.is_categorical_dtype(actual)
         else:
             return str(actual) == expected
+        
+    # value range validation
+        
+    def validate_value_ranges(self,range_rules=None):
+        """
+            Validate values fall within expected ranges
+            
+            Args:
+                range_rules dictionary maping columns to min/max rules
+
+            Returns:
+                dictionary of columns with range violations
+        """
+
+        if range_rules is None:
+            range_rules = {}
+
+        range_violations = {}
+
+        for column, rules in range_rules.items():
+            if column in self.date.columns:
+                min_val = rules.get("min")
+                max_val = rules.get("max")
+
+                violations = pd.Series(False, index = self.data.index)
+
+                if min_val is not None:
+                    violations = violations | (self.data[column] < min_val)
+    
+        
+                if max_val is not None:
+                    violations = violations | (self.data[column] > max_val)
+
+                if violations.any():
+                    range_violations[column] = {
+                        "rules": rules,
+                        "violation_count": violations.sum(),
+                        "violation_percentage": violations.mean(),
+                    }
+
+        self.validation_results["range_violations"] = range_violations
+        return range_violations
+
+    # ex. dictionary of rules, checks columns against rules, records violations for minmax constraints
+
+    # outlier detection (detect statistical outliers)
+
+    def detect_outliers(self, columns = None, method = "zscore", threshold=3):
+
+    
     
 
     
