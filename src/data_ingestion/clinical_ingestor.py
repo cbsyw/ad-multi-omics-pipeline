@@ -89,7 +89,45 @@ class ClinicalDataIngestor(DataIngestionBase):
             metadata["possible_id_columns"] = possible_id_cols
 
         return metadata
-                
+
+    # data transformation example (birthdate to age)
+
+    def calculate_age(self, birth_date_col, reference_date=None):
+        
+        """
+
+        calc age based on birth date
+
+        args:
+            birth_date_col (str): name of column containing birth dates
+            reference_date (datetime, optional): ref date for age calc
+            if none, use current date..
+
+        returns:
+            pandas.Series: ages calc from birth dates
+
+
+        """
+
+        if self.data is None:
+            self.load_data()
+
+        if reference_date is None:
+            reference_date = datetime.now()
+
+        # birthdate to datetime if not already
+
+        birth_dates = pd.to_datetime(self.data[birth_date_col])
+
+        # calc age
+
+        ages = (reference_date - birth_dates).astype('<m8[Y]').astype(int)
+
+        return ages
+
+
+        
+                    
 
 
 
