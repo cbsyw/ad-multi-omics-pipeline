@@ -1,8 +1,0 @@
-libdir=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/lib
-includedir=/home/ubuntu/sage-bio/ad-multi-omics-pipeline/miniconda3/include
-
-Name: libsolv
-Description: Library for solving packages
-Version: 0.7.30
-Libs: -L${libdir} -lsolv
-Cflags: -I${includedir}
