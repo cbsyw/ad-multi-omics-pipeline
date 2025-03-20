@@ -2,7 +2,8 @@
 
 import logging
 import pandas as pd 
-import numpy
+import numpy as np
+from datetime import datetime
 
 
 class DataValidator:
@@ -70,7 +71,7 @@ class DataValidator:
                 
                 if not self._is_compatible_type(actual, expected):
                     type_mismatches[column] = {
-                        "expected": expected
+                        "expected": expected,
                         "actual": str(actual)
                     }
 
@@ -90,7 +91,7 @@ class DataValidator:
             return pd.api.types.is_numeric_dtype(actual)
         elif expected == "datetime":
             return pd.api.types.is_datetime64_dtype(actual)
-        elif expected == "string" or expected == "categorical"
+        elif expected == "string" or expected == "categorical":
             return pd.api.types.is_string_dtype(actual) or pd.api.types.is_categorical_dtype(actual)
         else:
             return str(actual) == expected
@@ -114,7 +115,7 @@ class DataValidator:
         range_violations = {}
 
         for column, rules in range_rules.items():
-            if column in self.date.columns:
+            if column in self.data.columns:
                 min_val = rules.get("min")
                 max_val = rules.get("max")
 
@@ -158,7 +159,7 @@ class DataValidator:
 
         outliers = {}
 
-        for columns in columns:
+        for column in columns:
             if column in self.data.columns:
                 if method == "zscore":
                     # how many std devs from mean
@@ -187,12 +188,12 @@ class DataValidator:
     
     # run all validations 
 
-    def run_all_validations(self. expected_types = None, range_rules = None, outlier_columns = None):
+    def run_all_validations(self, expected_types = None, range_rules = None, outlier_columns = None):
 
         self.validate_missing_data()
-        self.validate_data_types()
-        self.validate_value_ranges()
-        self.detect_outliers() 
+        self.validate_data_types(expected_types)
+        self.validate_value_ranges(range_rules)
+        self.detect_outliers(outlier_columns) 
 
         # time stamp
 

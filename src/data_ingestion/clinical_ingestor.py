@@ -55,7 +55,7 @@ class ClinicalDataIngestor(DataIngestionBase):
             elif self.file_format == 'excel':
                 self.data = pd.read_excel(self.data_path)
             elif self.file_format == 'tsv':
-                self.data = pd.read_excel(self.data_path)
+                self.data = pd.read_csv(self.data_path)
             else:
                 raise ValueError(f"unsupported file format: {self.file_format}")
 
