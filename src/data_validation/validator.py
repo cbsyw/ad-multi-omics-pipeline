@@ -1,7 +1,8 @@
 
 
 import logging
-
+import pandas as pd 
+import numpy
 
 
 class DataValidator:
@@ -101,7 +102,7 @@ class DataValidator:
             Validate values fall within expected ranges
             
             Args:
-                range_rules dictionary maping columns to min/max rules
+                range_rules dictionary mapping columns to min/max rules
 
             Returns:
                 dictionary of columns with range violations
@@ -141,6 +142,65 @@ class DataValidator:
     # outlier detection (detect statistical outliers)
 
     def detect_outliers(self, columns = None, method = "zscore", threshold=3):
+        
+        """
+        Detect statistical outlier in numeric columns
+        
+        Args:
+            columns: list of columns to check (defaults to all numeric)
+            method: (zscore or iqr) 
+            threshold: for outlier classification
+        
+        """
+
+        if columns is None:
+            columns = self.data.select_dtypes(include=np.number).columns
+
+        outliers = {}
+
+        for columns in columns:
+            if column in self.data.columns:
+                if method == "zscore":
+                    # how many std devs from mean
+
+                    z_scores = np.abs((self.data[column] - self.data[column].mean()) / self.data[column].std())
+                    is_outlier = z_scores > threshold
+                elif method == "iqr":
+                    # values outside of 1.5 * iqr from q1/q3
+                    Q1 = self.data[column].quantile(0.25)
+                    Q3 = self.data[column].quantile(0.75)
+                    IQR = Q3 - Q1
+                    is_outlier = (self.data[column] < (Q1 - 1.5 * IQR)) | (self.data[column] > (Q3 + 1.5 * IQR))
+                else: 
+                    raise ValueError (f"Unsupported outlier detection method: {method}")
+                
+                if is_outlier.any():
+                    outliers[column] = {
+                        "method": method,
+                        "threshold": threshold,
+                        "outlier_count": is_outlier.sum(),
+                        "outlier_percentage": is_outlier.mean(),
+                    }
+        self.validation_results["outliers"] = outliers
+        return outliers
+
+    
+    # run all validations 
+
+    def run_all_validations(self. expected_types = None, range_rules = None, outlier_columns = None):
+
+        self.validate_missing_data()
+        self.validate_data_types()
+        self.validate_value_ranges()
+        self.detect_outliers() 
+
+        # time stamp
+
+        self.validation_results["timestamp"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+        return self.validation_results
+
+
 
     
     
