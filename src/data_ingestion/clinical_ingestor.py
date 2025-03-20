@@ -46,16 +46,16 @@ class ClinicalDataIngestor(DataIngestionBase):
         return file_format
         
 
-    def load_data(self):
+    def load_data(self, **kwargs):
         self.logger.info(f"Loading clinical data from {self.data_path}")
 
         try:
             if self.file_format == 'csv':
-                self.data = pd.read_csv(self.data_path)
+                self.data = pd.read_csv(self.data_path, **kwargs)
             elif self.file_format == 'excel':
-                self.data = pd.read_excel(self.data_path)
+                self.data = pd.read_excel(self.data_path, **kwargs)
             elif self.file_format == 'tsv':
-                self.data = pd.read_csv(self.data_path)
+                self.data = pd.read_csv(self.data_path, **kwargs)
             else:
                 raise ValueError(f"unsupported file format: {self.file_format}")
 
