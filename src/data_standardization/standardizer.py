@@ -135,7 +135,7 @@ class DataStandardizer:
                 Boolean indicating success 
             """
 
-            if column not in self.data.columns
+            if column not in self.data.columns:
                  self.loggier.error(f"column {column} not found in the dataset")
                  return False
             
