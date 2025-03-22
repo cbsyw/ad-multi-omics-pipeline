@@ -92,7 +92,7 @@ class DataStandardizer:
                 factor = unit_info.get("factor")
                 
                 if factor is None:
-                    self.logger.error(f"Missing conversion factor for {column} from {source_unit} to {target_unit")
+                    self.logger.error(f"Missing conversion factor for {column} from {source_unit} to {target_unit}")
                     continue
 
                 try:
