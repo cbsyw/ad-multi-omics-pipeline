@@ -15,3 +15,15 @@
 ## Data Standardization
 
 ## Visualization & Dashboard
+
+
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE289715
+
+
+## TODO
+* add additional pipeline
+* finish front end
+* domain? or point to digital ocean
+* write documentation
+	* readme
+	* project overview
