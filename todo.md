@@ -16,6 +16,7 @@
 
 ## Visualization & Dashboard
 
+<<<<<<< HEAD
 ## TODO 
 
 * CSV Validation Script
@@ -28,3 +29,16 @@
 	* is api open
 
 
+=======
+
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE289715
+
+
+## TODO
+* add additional pipeline
+* finish front end
+* domain? or point to digital ocean
+* write documentation
+	* readme
+	* project overview
+>>>>>>> bccb66f8230af03825c7219841da948d6dd9b2f9

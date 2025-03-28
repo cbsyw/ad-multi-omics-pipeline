@@ -17,7 +17,7 @@ def test_clinical_data_validation():
     
     # 1. Load clinical data
     logger.info("Loading clinical data...")
-    data_path = 'data/raw/patient.csv'
+    data_path = 'data/raw/GSE289715_counts.csv'
     
     if not os.path.exists(data_path):
         logger.error(f"File not found: {data_path}")
