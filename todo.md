@@ -15,3 +15,16 @@
 ## Data Standardization
 
 ## Visualization & Dashboard
+
+## TODO 
+
+* CSV Validation Script
+	* vaildate csv files vs schema (metadata)
+	* sample JSON schema file 
+
+* Simple Synapse Integration
+	* use synapseclient 
+	* maybe just an upload and validate file vs metadata template?
+	* is api open
+
+
